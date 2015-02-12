@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="author" content="Dr. Jason Watson" />
-  <title>SQL (Ch 4)</title>
+  <title>SQL (Chapters 7-8)</title>
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -35,7 +35,7 @@
     <div class="slides">
 
 <section>
-    <h1 class="title">SQL (Ch 4)</h1>
+    <h1 class="title">SQL (Chapters 7-8)</h1>
     <h2 class="author">Dr. Jason Watson</h2>
     <h3 class="date"></h3>
 </section>
@@ -120,7 +120,7 @@
 <figure>
 <img src="dbmsCatalog.png" alt="DBMS Catalog" /><figcaption>DBMS Catalog</figcaption>
 </figure>
-<pre class="sql"><code>CREATE DATABASE my_besmera2;  -- Catalog
+<pre class="sql"><code>CREATE DATABASE my_jwatson5;  -- Catalog
 
 CREATE TABLE Product ( 
     name VARCHAR(255)
@@ -555,18 +555,6 @@ CREATE TABLE DEPARTMENT
 <pre class="sql"><code>INSERT INTO table_name VALUES (value1,value2,value3,...);
 -- OR
 INSERT INTO table_name (column1,column2,column3,...) VALUES (value1,value2,value3,...);</code></pre>
-</section><section id="practice" class="slide level2">
-<h1><a href="#/practice">Practice</a></h1>
-<ul>
-<li>Lets create a <code>Product</code> table with:
-<ul>
-<li><code>name</code></li>
-<li><code>quantity</code></li>
-<li><code>price</code></li>
-</ul></li>
-<li>Row size?</li>
-<li>Then fill it with some data</li>
-</ul>
 </section></section>
 <section><section id="retrieval" class="titleslide slide level1"><h1><a href="#/retrieval">Retrieval</a></h1></section><section id="selection" class="slide level2">
 <h1><a href="#/selection">Selection</a></h1>
@@ -659,16 +647,6 @@ SELECT DISTINCT salary FROM EMPLOYEE; </code></pre>
 <li>Virtual relations can be created as a view</li>
 </ul>
 <pre class="sql"><code>CREATE VIEW ProductValues AS SELECT qty*price AS value FROM Product;</code></pre>
-</section><section id="practice-1" class="slide level2">
-<h1><a href="#/practice-1">Practice</a></h1>
-<ol type="1">
-<li>What are all the products?</li>
-<li>Which products have a price greater than or equal to 10.00?</li>
-<li>Which products are not priced at .99?</li>
-<li>Which products are priced at .99?</li>
-<li>Which products are between 5.00 and 10.00?</li>
-<li>Which products are less than 5.00 or greater than 10.00?</li>
-</ol>
 </section></section>
 <section><section id="modification" class="titleslide slide level1"><h1><a href="#/modification">Modification</a></h1></section><section id="update" class="slide level2">
 <h1><a href="#/update">UPDATE</a></h1>
@@ -709,14 +687,15 @@ SELECT DISTINCT salary FROM EMPLOYEE; </code></pre>
 <ul>
 <li><code>LEFT JOIN</code></li>
 <li><code>RIGHT JOIN</code></li>
-<li><code>FULL JOIN</code> <a href="#/fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></li>
+<li><code>FULL JOIN</code></li>
 </ul></li>
 </ul></li>
 </ul>
-</section><section id="join-pdf" class="slide level2">
-<h1><a href="#/join-pdf">JOIN PDF</a></h1>
+</section><section id="join-reference" class="slide level2">
+<h1><a href="#/join-reference">JOIN Reference</a></h1>
 <ul>
-<li>Refer to <code>JOIN</code> PDF</li>
+<li>Refer to <code>JOIN</code> documentation in book</li>
+<li>Sections 8.1 - 8.4</li>
 </ul>
 </section><section id="ambiguous-attributes" class="slide level2">
 <h1><a href="#/ambiguous-attributes">Ambiguous Attributes</a></h1>
@@ -834,19 +813,15 @@ Insert INTO Product (name, category, company, qty, price) Select &quot;120 Piece
 
 Insert INTO Product (name, category, company, qty, price) Select &quot;Hot-wheels Car&quot;, NULL, NULL, 10, .99 ;
 </code></pre>
-</section><section id="join-practice" class="slide level2">
-<h1><a href="#/join-practice">JOIN Practice</a></h1>
+</section><section id="practice-1-of-2" class="slide level2">
+<h1><a href="#/practice-1-of-2">Practice (1 of 2)</a></h1>
 <ol type="1">
 <li>Create a view showing the values of the product on hand.</li>
-<li>Select all the products and the category that the product is in.
-<ul>
-<li>Implicit</li>
-<li>Explicit</li>
-</ul></li>
+<li>Select all the products and the category that the product is in.</li>
 <li>Select the <em>product name</em> and the <em>category name</em> of all the products.</li>
 </ol>
-</section><section id="join-practice-1" class="slide level2">
-<h1><a href="#/join-practice-1">JOIN Practice</a></h1>
+</section><section id="practice-2-of-2" class="slide level2">
+<h1><a href="#/practice-2-of-2">Practice (2 of 2)</a></h1>
 <ol start="4" type="1">
 <li>Select all the products, the categories they belong to, and the company the product is made by. Hint: LEFT LEFT!
 <ul>
@@ -856,7 +831,7 @@ Insert INTO Product (name, category, company, qty, price) Select &quot;Hot-wheel
 <ul>
 <li>Now only those made by Stanley Black and Decker.</li>
 </ul></li>
-<li>Delete the matchbox company.
+<li>Delete the Crest company.
 <ul>
 <li>Why did this happen?</li>
 <li>What can you do? Do it! Try again.</li>
@@ -890,12 +865,6 @@ CREATE TABLE Company (
 ALTER TABLE Product ADD FOREIGN KEY (Company) REFERENCES Company(id);</code></pre>
 </aside>
 </section></section>
-<section class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p><a href="http://bugs.mysql.com/bug.php?id=18003">FULL JOIN Bug Report</a><a href="#/fnref1">↩</a></p></li>
-</ol>
-</section>
     </div>
   </div>
 
