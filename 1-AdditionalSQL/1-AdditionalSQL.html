@@ -28,7 +28,7 @@
     <!--[if lt IE 9]>
     <script src="../reveal.js/lib/js/html5shiv.js"></script>
     <![endif]-->
-    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
 <body>
   <div class="reveal">
@@ -49,8 +49,8 @@
 </ul>
 </section>
 
-<section><section id="nulls" class="titleslide slide level1"><h1><a href="#/nulls">NULLs</a></h1></section><section id="meaning" class="slide level2">
-<h1><a href="#/meaning">Meaning</a></h1>
+<section><section id="nulls" class="titleslide slide level1"><h1>NULLs</h1></section><section id="meaning" class="slide level2">
+<h1>Meaning</h1>
 <ul>
 <li>Recall meaning of <code>NULL</code>
 <ul>
@@ -62,7 +62,7 @@
 </ul>
 <pre class="sql"><code>SELECT * FROM Product WHERE Category = NULL; </code></pre>
 </section><section id="comparisons" class="slide level2">
-<h1><a href="#/comparisons">Comparisons</a></h1>
+<h1>Comparisons</h1>
 <ul>
 <li>When being evaluated <code>NULL</code>s have three valued logic
 <ul>
@@ -70,7 +70,7 @@
 </ul></li>
 </ul>
 </section><section id="and" class="slide level2">
-<h1><a href="#/and">AND</a></h1>
+<h1>AND</h1>
 <table>
 <thead>
 <tr class="header">
@@ -102,7 +102,7 @@
 </tbody>
 </table>
 </section><section id="or" class="slide level2">
-<h1><a href="#/or">OR</a></h1>
+<h1>OR</h1>
 <table>
 <thead>
 <tr class="header">
@@ -134,7 +134,7 @@
 </tbody>
 </table>
 </section><section id="not" class="slide level2">
-<h1><a href="#/not">NOT</a></h1>
+<h1>NOT</h1>
 <table>
 <thead>
 <tr class="header">
@@ -158,7 +158,7 @@
 </tbody>
 </table>
 </section><section id="comparisons-1" class="slide level2">
-<h1><a href="#/comparisons-1">Comparisons</a></h1>
+<h1>Comparisons</h1>
 <ul>
 <li>Can use <code>IS NULL</code> or <code>IS NOT NULL</code> when looking to compare in <code>WHERE</code> clause
 <ul>
@@ -168,8 +168,8 @@
 </ul>
 <pre class="sql"><code>SELECT * FROM Product WHERE Category IS NULL; </code></pre>
 </section></section>
-<section><section id="aggregation" class="titleslide slide level1"><h1><a href="#/aggregation">Aggregation</a></h1></section><section id="aggregate-functions" class="slide level2">
-<h1><a href="#/aggregate-functions">Aggregate Functions</a></h1>
+<section><section id="aggregation" class="titleslide slide level1"><h1>Aggregation</h1></section><section id="aggregate-functions" class="slide level2">
+<h1>Aggregate Functions</h1>
 <ul>
 <li><code>COUNT()</code> - Count items in a <strong>group</strong></li>
 </ul>
@@ -188,7 +188,7 @@
 <li><code>MAX()</code> - Max of items in a group</li>
 </ul>
 </section><section id="nulls-waggregation" class="slide level2">
-<h1><a href="#/nulls-waggregation">NULLs w/Aggregation</a></h1>
+<h1>NULLs w/Aggregation</h1>
 <ul>
 <li>During aggregation on a column <code>NULL</code>s are simply discarded</li>
 </ul>
@@ -196,20 +196,20 @@
 <p>vs</p>
 <pre class="sql"><code>SELECT COUNT(Company) FROM Product;</code></pre>
 </section><section id="in-operator" class="slide level2">
-<h1><a href="#/in-operator">IN Operator</a></h1>
+<h1>IN Operator</h1>
 <ul>
 <li>Comparison operator <code>IN</code>
 <ul>
-<li>Compares value <span class="math">\(v\)</span> with a set (or multiset) of values <span class="math">\(V\)</span></li>
-<li>Evaluates to <code>TRUE</code> if <span class="math">\(v \in V\)</span></li>
+<li>Compares value <span class="math inline">\(v\)</span> with a set (or multiset) of values <span class="math inline">\(V\)</span></li>
+<li>Evaluates to <code>TRUE</code> if <span class="math inline">\(v \in V\)</span></li>
 </ul></li>
 <li>Useful with nested queries!</li>
 </ul>
 <pre class="sql"><code>SELECT * FROM Product WHERE Company IN (1,2);</code></pre>
 <pre class="sql"><code>SELECT * FROM Product WHERE (Company,Category) IN ((1,1),(1,2));</code></pre>
 </section></section>
-<section><section id="subquery" class="titleslide slide level1"><h1><a href="#/subquery">Subquery</a></h1></section><section id="subquery-1" class="slide level2">
-<h1><a href="#/subquery-1">Subquery</a></h1>
+<section><section id="subquery" class="titleslide slide level1"><h1>Subquery</h1></section><section id="subquery-1" class="slide level2">
+<h1>Subquery</h1>
 <dl>
 <dt>Subquery</dt>
 <dd>SQL query within another query
@@ -226,7 +226,7 @@ WHERE Company.id IN (Select Product.Company
 WHERE Company.id = Product.Company 
 AND Product.Price &gt; 15.00;</code></pre>
 </section><section id="subquery-2" class="slide level2">
-<h1><a href="#/subquery-2">Subquery</a></h1>
+<h1>Subquery</h1>
 <ul>
 <li>Can you put them in a <code>FROM</code> clause?</li>
 </ul>
@@ -241,7 +241,7 @@ AND Product.Price &gt; 15.00;</code></pre>
 <pre class="sql"><code>SELECT * FROM (Select * FROM Product) AS P;</code></pre>
 </div>
 </section><section id="correlated" class="slide level2">
-<h1><a href="#/correlated">Correlated</a></h1>
+<h1>Correlated</h1>
 <dl>
 <dt>Correlated Query</dt>
 <dd>Inner/subquery references a row in the outer query
@@ -252,7 +252,7 @@ AND Product.Price &gt; 15.00;</code></pre>
 </ul>
 <pre class="sql"><code>SELECT * FROM Product AS P WHERE P.Price &gt; (Select AVG(Product.Price) FROM Product WHERE Product.Category = P.Category);</code></pre>
 </section><section id="exists" class="slide level2">
-<h1><a href="#/exists">Exists</a></h1>
+<h1>Exists</h1>
 <ul>
 <li><code>EXISTS</code> Checks for the existence of any results in the nested query
 <ul>
@@ -265,8 +265,8 @@ AND Product.Price &gt; 15.00;</code></pre>
 <li>What would NOT EXISTS do then?</li>
 </ul>
 </section></section>
-<section><section id="grouping" class="titleslide slide level1"><h1><a href="#/grouping">Grouping</a></h1></section><section id="group-by" class="slide level2">
-<h1><a href="#/group-by">GROUP BY</a></h1>
+<section><section id="grouping" class="titleslide slide level1"><h1>Grouping</h1></section><section id="group-by" class="slide level2">
+<h1>GROUP BY</h1>
 <ul>
 <li><code>GROUP BY</code> Partitions results into subsets of tuples based on the grouping attributes
 <ul>
@@ -279,7 +279,7 @@ AND Product.Price &gt; 15.00;</code></pre>
 </ul>
 <pre class="sql"><code>SELECT Company, AVG(Price) FROM Product GROUP BY Company;</code></pre>
 </section><section id="practice" class="slide level2">
-<h1><a href="#/practice">Practice</a></h1>
+<h1>Practice</h1>
 <ol type="1">
 <li>Get <strong><em>all the company names</em></strong> and the <strong><em>average price of their products</em></strong>.</li>
 <li>Get <strong><em>all the company names</em></strong> and the <strong><em>average price of their products</em></strong>. <strong><em>Don’t discard the NULL</em></strong> (missing companies) avg price.
@@ -288,7 +288,7 @@ AND Product.Price &gt; 15.00;</code></pre>
 </ul></li>
 </ol>
 </section><section id="having" class="slide level2">
-<h1><a href="#/having">HAVING</a></h1>
+<h1>HAVING</h1>
 <ul>
 <li><code>HAVING</code> Provides a condition on the summary information, <strong>applied after grouping</strong>
 <ul>
@@ -300,15 +300,15 @@ AND Product.Price &gt; 15.00;</code></pre>
 <pre class="sql"><code>SELECT Company, AVG(Price) FROM Product 
 GROUP BY Company HAVING AVG(Price) &lt; 15.00;</code></pre>
 </section><section id="practice-1" class="slide level2">
-<h1><a href="#/practice-1">Practice</a></h1>
+<h1>Practice</h1>
 <ol type="1">
 <li>Modify the last query (shown below) to output the company name and average price instead of just the id.</li>
 </ol>
 <pre class="sql"><code>SELECT Company, AVG(Price) FROM Product 
 GROUP BY Company HAVING AVG(Price) &lt; 15.00;</code></pre>
 </section></section>
-<section><section id="summary" class="titleslide slide level1"><h1><a href="#/summary">Summary</a></h1></section><section id="summary-1" class="slide level2">
-<h1><a href="#/summary-1">Summary</a></h1>
+<section><section id="summary" class="titleslide slide level1"><h1>Summary</h1></section><section id="summary-1" class="slide level2">
+<h1>Summary</h1>
 <ol type="1">
 <li>Cartesian product of tables <code>FROM</code> &amp; <code>JOIN</code></li>
 <li>Iterate over each row

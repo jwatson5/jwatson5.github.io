@@ -46,8 +46,8 @@
 </ul>
 </section>
 
-<section><section id="db-security" class="titleslide slide level1"><h1><a href="#/db-security">DB Security</a></h1></section><section id="threats" class="slide level2">
-<h1><a href="#/threats">Threats</a></h1>
+<section><section id="db-security" class="titleslide slide level1"><h1>DB Security</h1></section><section id="threats" class="slide level2">
+<h1>Threats</h1>
 <ul>
 <li><strong>CIA</strong>
 <ul>
@@ -61,7 +61,7 @@
 </ul></li>
 </ul>
 </section><section id="protecting-databases" class="slide level2">
-<h1><a href="#/protecting-databases">Protecting Databases</a></h1>
+<h1>Protecting Databases</h1>
 <ul>
 <li>Countermeasures
 <ul>
@@ -72,7 +72,7 @@
 </ul></li>
 </ul>
 </section><section id="inference-control" class="slide level2">
-<h1><a href="#/inference-control">Inference Control</a></h1>
+<h1>Inference Control</h1>
 <ul>
 <li>Databases can be used to provide statistical data on various populations
 <ul>
@@ -89,7 +89,7 @@
 </ul></li>
 </ul>
 </section><section id="inference-control-1" class="slide level2">
-<h1><a href="#/inference-control-1">Inference Control</a></h1>
+<h1>Inference Control</h1>
 <ul>
 <li><p>Populations need to be of sufficient size of inference of individuals data is possible</p></li>
 <li>Should not be able to determine for example income of one employee
@@ -100,7 +100,7 @@
 </ul></li>
 </ul>
 </section><section id="encryption" class="slide level2">
-<h1><a href="#/encryption">Encryption</a></h1>
+<h1>Encryption</h1>
 <ul>
 <li>Encryption is used to protect sensitive data
 <ul>
@@ -114,7 +114,7 @@
 </ul></li>
 </ul>
 </section><section id="hashing" class="slide level2">
-<h1><a href="#/hashing">Hashing</a></h1>
+<h1>Hashing</h1>
 <ul>
 <li>Similar goal but for passwords
 <ul>
@@ -123,7 +123,7 @@
 <li>What is hashing?</li>
 </ul>
 </section><section id="hashing-functions" class="slide level2">
-<h1><a href="#/hashing-functions">Hashing Functions</a></h1>
+<h1>Hashing Functions</h1>
 <ul>
 <li>Commonly used but are fast which is a problem… what?!
 <ul>
@@ -133,7 +133,7 @@
 </ul></li>
 </ul>
 </section><section id="salting" class="slide level2">
-<h1><a href="#/salting">Salting</a></h1>
+<h1>Salting</h1>
 <ul>
 <li>When hashing passwords should provide a salt
 <ul>
@@ -149,7 +149,7 @@
 <pre class="php"><code>//For PHP
 $csprnOrSalt = openssl_random_pseudo_bytes(8);</code></pre>
 </section><section id="key-stretching" class="slide level2">
-<h1><a href="#/key-stretching">Key Stretching</a></h1>
+<h1>Key Stretching</h1>
 <ul>
 <li>Consider key stretching
 <ul>
@@ -167,7 +167,7 @@ $csprnOrSalt = openssl_random_pseudo_bytes(8);</code></pre>
 </ul></li>
 </ul>
 </section><section id="a-warning" class="slide level2">
-<h1><a href="#/a-warning">A Warning</a></h1>
+<h1>A Warning</h1>
 <ul>
 <li>Do not use the mysql built in functions to hash! Do it server side and send to the SQL server.</li>
 </ul>
@@ -175,7 +175,7 @@ $csprnOrSalt = openssl_random_pseudo_bytes(8);</code></pre>
 <p>Passwords can be written as plain text in SQL statements such as CREATE USER, GRANT, and SET PASSWORD, or statements that invoke the PASSWORD() function. If these statements are logged by the MySQL server as written, such passwords become available to anyone with access to the logs.</p>
 </blockquote>
 </section><section id="bad-example" class="slide level2">
-<h1><a href="#/bad-example">Bad Example!</a></h1>
+<h1>Bad Example!</h1>
 <ul>
 <li>Don’t be this guy/girl!
 <ul>
@@ -192,7 +192,7 @@ $stmt-&gt;bindValue(&quot;:password&quot;, $password);
 
 $stmt-&gt;execute();</code></pre>
 </section><section id="better-example" class="slide level2">
-<h1><a href="#/better-example">Better Example</a></h1>
+<h1>Better Example</h1>
 <pre class="php"><code>$stmt = $db-&gt;prepare(&quot;Select * from User where username = :username&quot;);
 
 $stmt-&gt;bindValue(&quot;:username&quot;, $username);
@@ -214,8 +214,8 @@ if($stmt-&gt;rowCount() == 1){
     }
 }</code></pre>
 </section></section>
-<section><section id="the-dba" class="titleslide slide level1"><h1><a href="#/the-dba">The DBA</a></h1></section><section id="the-dba-1" class="slide level2">
-<h1><a href="#/the-dba-1">The DBA</a></h1>
+<section><section id="the-dba" class="titleslide slide level1"><h1>The DBA</h1></section><section id="the-dba-1" class="slide level2">
+<h1>The DBA</h1>
 <ul>
 <li>The DBA is the central authority for managing a DBMS
 <ul>
@@ -226,7 +226,7 @@ if($stmt-&gt;rowCount() == 1){
 <li>DBA obviously has many other roles besides security</li>
 </ul>
 </section><section id="the-dba-2" class="slide level2">
-<h1><a href="#/the-dba-2">The DBA</a></h1>
+<h1>The DBA</h1>
 <ul>
 <li>DBA has special account sometimes called system or root or superuser account
 <ul>
@@ -241,7 +241,7 @@ if($stmt-&gt;rowCount() == 1){
 </ul></li>
 </ul>
 </section><section id="access-control" class="slide level2">
-<h1><a href="#/access-control">Access Control</a></h1>
+<h1>Access Control</h1>
 <ul>
 <li>Access to the DBMS is separate from access to the database
 <ul>
@@ -254,7 +254,7 @@ if($stmt-&gt;rowCount() == 1){
 </ul></li>
 </ul>
 </section><section id="access-control-1" class="slide level2">
-<h1><a href="#/access-control-1">Access Control</a></h1>
+<h1>Access Control</h1>
 <ul>
 <li>Two types of DB security mechanisms
 <ul>
@@ -272,7 +272,7 @@ if($stmt-&gt;rowCount() == 1){
 </ul></li>
 </ul>
 </section><section id="dac---privileges" class="slide level2">
-<h1><a href="#/dac---privileges">DAC - Privileges</a></h1>
+<h1>DAC - Privileges</h1>
 <ul>
 <li>Generally though about in terms of <strong>access control matrix</strong> <code>M</code>
 <ul>
@@ -291,7 +291,7 @@ if($stmt-&gt;rowCount() == 1){
 </ul></li>
 </ul>
 </section><section id="dac---privileges-1" class="slide level2">
-<h1><a href="#/dac---privileges-1">DAC - Privileges</a></h1>
+<h1>DAC - Privileges</h1>
 <ul>
 <li>There are multiple levels of privileges
 <ul>
@@ -313,7 +313,7 @@ GRANT SELECT, INSERT ON company.employee TO &#39;andrew&#39;@&#39;%&#39;; --tabl
 
 GRANT ALL ON *.* TO &#39;andrew&#39;@&#39;%&#39;; --AHH!</code></pre>
 </section><section id="dac---privileges-2" class="slide level2">
-<h1><a href="#/dac---privileges-2">DAC - Privileges</a></h1>
+<h1>DAC - Privileges</h1>
 <ul>
 <li>Account level
 <ul>
@@ -329,7 +329,7 @@ GRANT ALL ON *.* TO &#39;andrew&#39;@&#39;%&#39;; --AHH!</code></pre>
 </ul></li>
 </ul>
 </section><section id="dac---privileges-3" class="slide level2">
-<h1><a href="#/dac---privileges-3">DAC - Privileges</a></h1>
+<h1>DAC - Privileges</h1>
 <ul>
 <li>Relation level
 <ul>
@@ -346,7 +346,7 @@ GRANT ALL ON *.* TO &#39;andrew&#39;@&#39;%&#39;; --AHH!</code></pre>
 </ul></li>
 </ul>
 </section><section id="dac---privileges-4" class="slide level2">
-<h1><a href="#/dac---privileges-4">DAC - Privileges</a></h1>
+<h1>DAC - Privileges</h1>
 <ul>
 <li>Each relation <code>R</code> in database is assigned an owner
 <ul>
@@ -357,7 +357,7 @@ GRANT ALL ON *.* TO &#39;andrew&#39;@&#39;%&#39;; --AHH!</code></pre>
 </ul></li>
 </ul>
 </section><section id="privilege-revocation" class="slide level2">
-<h1><a href="#/privilege-revocation">Privilege Revocation</a></h1>
+<h1>Privilege Revocation</h1>
 <ul>
 <li>Suppose <code>A</code> is owner of <code>EMPLOYEE</code></li>
 </ul>
@@ -366,13 +366,13 @@ GRANT ALL ON *.* TO &#39;andrew&#39;@&#39;%&#39;; --AHH!</code></pre>
 <li>Now <code>B</code> grants <code>C</code> access.</li>
 </ul>
 </section><section id="privilege-revocation-1" class="slide level2">
-<h1><a href="#/privilege-revocation-1">Privilege Revocation</a></h1>
+<h1>Privilege Revocation</h1>
 <ul>
 <li>What should happen if <code>A</code> revokes <code>B</code>’s privilege?</li>
 </ul>
 <pre class="sql"><code>REVOKE SELECT ON EMPLOYEE FROM B;</code></pre>
 </section><section id="limits-on-propagation" class="slide level2">
-<h1><a href="#/limits-on-propagation">Limits on Propagation</a></h1>
+<h1>Limits on Propagation</h1>
 <ul>
 <li>Techniques exist for example:
 <ul>
@@ -387,7 +387,7 @@ GRANT ALL ON *.* TO &#39;andrew&#39;@&#39;%&#39;; --AHH!</code></pre>
 <li>Not implemented in almost all DBMS</li>
 </ul>
 </section><section id="mac---privileges" class="slide level2">
-<h1><a href="#/mac---privileges">MAC - Privileges</a></h1>
+<h1>MAC - Privileges</h1>
 <ul>
 <li>Bell-LaPadula - Each subject/object classified into one class
 <ul>
@@ -403,7 +403,7 @@ GRANT ALL ON *.* TO &#39;andrew&#39;@&#39;%&#39;; --AHH!</code></pre>
 </ul></li>
 </ul>
 </section><section id="mac---privileges-1" class="slide level2">
-<h1><a href="#/mac---privileges-1">MAC - Privileges</a></h1>
+<h1>MAC - Privileges</h1>
 <ul>
 <li>Two restrictions
 <ul>
@@ -414,7 +414,7 @@ GRANT ALL ON *.* TO &#39;andrew&#39;@&#39;%&#39;; --AHH!</code></pre>
 <li>No notion of a given user giving TS access to another user… thus MAC</li>
 </ul>
 </section><section id="covert-channels" class="slide level2">
-<h1><a href="#/covert-channels">Covert Channels</a></h1>
+<h1>Covert Channels</h1>
 <ul>
 <li><strong>Covert channel</strong> allows transfer of information that violates security policy
 <ul>
@@ -427,8 +427,8 @@ GRANT ALL ON *.* TO &#39;andrew&#39;@&#39;%&#39;; --AHH!</code></pre>
 </ul></li>
 </ul>
 </section></section>
-<section><section id="mysql-specific" class="titleslide slide level1"><h1><a href="#/mysql-specific">MySQL Specific</a></h1></section><section id="mysql-specific-1" class="slide level2">
-<h1><a href="#/mysql-specific-1">MySQL Specific</a></h1>
+<section><section id="mysql-specific" class="titleslide slide level1"><h1>MySQL Specific</h1></section><section id="mysql-specific-1" class="slide level2">
+<h1>MySQL Specific</h1>
 <ul>
 <li>Newer MySQL can limit users:
 <ul>
@@ -440,12 +440,12 @@ GRANT ALL ON *.* TO &#39;andrew&#39;@&#39;%&#39;; --AHH!</code></pre>
 <pre class="sql"><code>GRANT ALL ON company.* TO &#39;andrew&#39;@&#39;%&#39; WITH 
 MAX_QUERIES_PER_HOUR 100 MAX_UPDATES_PER_HOUR 100;</code></pre>
 </section><section id="mysql-storage" class="slide level2">
-<h1><a href="#/mysql-storage">MySQL Storage</a></h1>
+<h1>MySQL Storage</h1>
 <ul>
 <li>If you are MySQL where would you store your access control information?</li>
 </ul>
 </section><section id="mysql" class="slide level2">
-<h1><a href="#/mysql">MySQL</a></h1>
+<h1>MySQL</h1>
 <ul>
 <li><p>MySQL has a database <code>mysql</code></p></li>
 <li>User tables loaded into memory when server starts
@@ -455,7 +455,7 @@ MAX_QUERIES_PER_HOUR 100 MAX_UPDATES_PER_HOUR 100;</code></pre>
 </ul></li>
 </ul>
 </section><section id="stage-access-control" class="slide level2">
-<h1><a href="#/stage-access-control">2 Stage Access Control</a></h1>
+<h1>2 Stage Access Control</h1>
 <ul>
 <li>MySQL security split into two “stages”
 <ul>
@@ -464,7 +464,7 @@ MAX_QUERIES_PER_HOUR 100 MAX_UPDATES_PER_HOUR 100;</code></pre>
 </ul></li>
 </ul>
 </section><section id="stage-1" class="slide level2">
-<h1><a href="#/stage-1">Stage 1</a></h1>
+<h1>Stage 1</h1>
 <ul>
 <li>User is defined by both a name and host</li>
 <li><code>'andrew'@'aspen.winthrop.edu'</code></li>
@@ -474,7 +474,7 @@ MAX_QUERIES_PER_HOUR 100 MAX_UPDATES_PER_HOUR 100;</code></pre>
 <li><p>MySQL matches based on most specific host to least specific</p></li>
 </ul>
 </section><section id="stage-1-1" class="slide level2">
-<h1><a href="#/stage-1-1">Stage 1</a></h1>
+<h1>Stage 1</h1>
 <ul>
 <li>For example
 <ul>
@@ -485,13 +485,13 @@ MAX_QUERIES_PER_HOUR 100 MAX_UPDATES_PER_HOUR 100;</code></pre>
 <li>What about from abernathy?</li>
 </ul>
 </section><section id="stage-1-2" class="slide level2">
-<h1><a href="#/stage-1-2">Stage 1</a></h1>
+<h1>Stage 1</h1>
 <ul>
 <li>So… If you experience permission problems check your current user…</li>
 </ul>
 <pre class="sql"><code>SELECT CURRENT_USER();</code></pre>
 </section><section id="creating-users" class="slide level2">
-<h1><a href="#/creating-users">Creating Users</a></h1>
+<h1>Creating Users</h1>
 <ul>
 <li>Creating users for Stage 1</li>
 </ul>
@@ -503,7 +503,7 @@ CREATE USER &#39;databases&#39;@&#39;%&#39; IDENTIFIED BY &#39;csci355&#39;;
 -- vs
 CREATE USER &#39;csci355&#39;@&#39;%&#39;;</code></pre>
 </section><section id="stage-2" class="slide level2">
-<h1><a href="#/stage-2">Stage 2</a></h1>
+<h1>Stage 2</h1>
 <ul>
 <li>Access checked by:
 <ul>

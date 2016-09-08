@@ -28,7 +28,7 @@
     <!--[if lt IE 9]>
     <script src="../reveal.js/lib/js/html5shiv.js"></script>
     <![endif]-->
-    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
 <body>
   <div class="reveal">
@@ -52,8 +52,8 @@
 </ul>
 </section>
 
-<section><section id="terms" class="titleslide slide level1"><h1><a href="#/terms">Terms</a></h1></section><section id="dbms-vs-relational" class="slide level2">
-<h1><a href="#/dbms-vs-relational">DBMS vs Relational</a></h1>
+<section><section id="terms" class="titleslide slide level1"><h1>Terms</h1></section><section id="dbms-vs-relational" class="slide level2">
+<h1>DBMS vs Relational</h1>
 <ul>
 <li><strong>Table</strong>, <strong>row</strong>, and <strong>column</strong> instead of relation, tuple, and attribute
 <ul>
@@ -84,7 +84,7 @@
 </tbody>
 </table>
 </section><section id="schema" class="slide level2">
-<h1><a href="#/schema">Schema</a></h1>
+<h1>Schema</h1>
 <dl>
 <dt>SQL Schema</dt>
 <dd>A set of statements used to define elements in the database. Each statement terminates with a <code>;</code>
@@ -101,7 +101,7 @@
 </ul></li>
 </ul>
 </section><section id="schema-1" class="slide level2">
-<h1><a href="#/schema-1">Schema</a></h1>
+<h1>Schema</h1>
 <ul>
 <li>Within a schema specify a new relation (now a table)
 <ul>
@@ -111,7 +111,7 @@
 </ul></li>
 </ul>
 </section><section id="catalog" class="slide level2">
-<h1><a href="#/catalog">Catalog</a></h1>
+<h1>Catalog</h1>
 <dl>
 <dt>Catalog</dt>
 <dd>A named collection of schemas
@@ -126,8 +126,8 @@ CREATE TABLE Product (
     name VARCHAR(255)
 ); -- Schema</code></pre>
 </section></section>
-<section><section id="data-types" class="titleslide slide level1"><h1><a href="#/data-types">Data Types</a></h1></section><section id="row-size" class="slide level2">
-<h1><a href="#/row-size">Row Size</a></h1>
+<section><section id="data-types" class="titleslide slide level1"><h1>Data Types</h1></section><section id="row-size" class="slide level2">
+<h1>Row Size</h1>
 <ul>
 <li>65,535 is the maximum row size in bytes for MyISAM
 <ul>
@@ -142,7 +142,7 @@ CREATE TABLE Product (
 </ul></li>
 </ul>
 </section><section id="integers" class="slide level2">
-<h1><a href="#/integers">Integers</a></h1>
+<h1>Integers</h1>
 <ul>
 <li>Integer numbers: <code>TINYINT</code>, <code>SMALLINT</code>, <code>MEDIUMINT</code>, <code>INT</code>, <code>BIGINT</code></li>
 </ul>
@@ -219,7 +219,7 @@ CREATE TABLE Product (
 </tbody>
 </table>
 </section><section id="integers-1" class="slide level2">
-<h1><a href="#/integers-1">Integers</a></h1>
+<h1>Integers</h1>
 <ul>
 <li>Can set display width by setting value, i.e. <code>SMALLINT(4)</code>
 <ul>
@@ -231,19 +231,19 @@ CREATE TABLE Product (
 </ul></li>
 </ul>
 </section><section id="decimals" class="slide level2">
-<h1><a href="#/decimals">Decimals</a></h1>
+<h1>Decimals</h1>
 <ul>
 <li>Use <code>DECIMAL</code> when you want <em>exact</em> precision
 <ul>
 <li>Specify precision (<code>M</code>) and scale (<code>D</code>)</li>
-<li><code>DECIMAL(M,D)</code> where <span class="math">\(M \in \{1,2,3,...,254\}\)</span> &amp; <span class="math">\(D \in \{0,1,2,...30\}\)</span></li>
+<li><code>DECIMAL(M,D)</code> where <span class="math inline">\(M \in \{1,2,3,...,254\}\)</span> &amp; <span class="math inline">\(D \in \{0,1,2,...30\}\)</span></li>
 <li><code>D</code> must never exceed <code>M</code></li>
 <li><code>DECIMAL</code> is the same <code>DECIMAL(10,0)</code></li>
 <li>What are valid values for <code>DECIMAL(6,3)</code>?</li>
 </ul></li>
 </ul>
 </section><section id="decimal-storage" class="slide level2">
-<h1><a href="#/decimal-storage">Decimal Storage</a></h1>
+<h1>Decimal Storage</h1>
 <ul>
 <li>Must calculate based on each side 9 digits at a time</li>
 </ul>
@@ -279,7 +279,7 @@ CREATE TABLE Product (
 </tbody>
 </table>
 </section><section id="floats" class="slide level2">
-<h1><a href="#/floats">Floats</a></h1>
+<h1>Floats</h1>
 <ul>
 <li>Floating point (real) numbers: <code>FLOAT</code>, <code>DOUBLE</code>
 <ul>
@@ -288,14 +288,14 @@ CREATE TABLE Product (
 <li>Try testing <code>DOUBLE</code> against <code>DECIMAL</code></li>
 </ul></li>
 </ul>
-<pre class="SQL"><code>INSERT INTO DecimalTest VALUES (.1),(.7);
+<pre class="sql"><code>INSERT INTO DecimalTest VALUES (.1),(.7);
 SELECT floor(sum(val)*10) FROM DecimalTest;</code></pre>
 <aside class="notes">
 <p>CREATE TABLE DECTest (val DECIMAL(2,1)); Insert into DecimalTest VALUES (.1),(.7); Select floor(sum(val)*10) from DECTest;</p>
-CREATE TABLE DBLTest ( val DOUBLE ); Insert into DBLTest VALUES (.1),(.7); Select floor(sum(val)*10) from DBLTest;
+<p>CREATE TABLE DBLTest ( val DOUBLE ); Insert into DBLTest VALUES (.1),(.7); Select floor(sum(val)*10) from DBLTest;</p>
 </aside>
 </section><section id="time" class="slide level2">
-<h1><a href="#/time">Time</a></h1>
+<h1>Time</h1>
 <ul>
 <li><code>DATE</code> - 3 bytes
 <ul>
@@ -317,40 +317,40 @@ CREATE TABLE DBLTest ( val DOUBLE ); Insert into DBLTest VALUES (.1),(.7); Selec
 </ul></li>
 </ul>
 </section><section id="text" class="slide level2">
-<h1><a href="#/text">Text</a></h1>
+<h1>Text</h1>
 <ul>
 <li><code>CHAR(M)</code>
 <ul>
-<li><span class="math">\(M\)</span> is number of characters
+<li><span class="math inline">\(M\)</span> is number of characters
 <ul>
-<li><span class="math">\(M \in \{0,1,2,...,255\}\)</span></li>
+<li><span class="math inline">\(M \in \{0,1,2,...,255\}\)</span></li>
 </ul></li>
 <li>Space padded, see example.</li>
 </ul></li>
 <li><code>VARCHAR(M)</code>
 <ul>
-<li>For ASCII (1B) <span class="math">\(M \in \{0,1,2,...,65535\}\)</span></li>
-<li>For UTF-8 (3B) <span class="math">\(M \in \{0,1,2,...,21844\}\)</span></li>
+<li>For ASCII (1B) <span class="math inline">\(M \in \{0,1,2,...,65535\}\)</span></li>
+<li>For UTF-8 (3B) <span class="math inline">\(M \in \{0,1,2,...,21844\}\)</span></li>
 </ul></li>
 <li>How many bytes needed to store 256 characters of ASCII?</li>
 <li>How many bytes needed to store 256 characters of UTF-8?</li>
 </ul>
 </section><section id="binary" class="slide level2">
-<h1><a href="#/binary">Binary</a></h1>
+<h1>Binary</h1>
 <ul>
 <li><code>BINARY(M)</code>
 <ul>
-<li><span class="math">\(M\)</span> is number of bytes</li>
-<li><span class="math">\(M \in \{0,1,2,...,255\}\)</span></li>
+<li><span class="math inline">\(M\)</span> is number of bytes</li>
+<li><span class="math inline">\(M \in \{0,1,2,...,255\}\)</span></li>
 </ul></li>
 <li><code>VARBINARY(M)</code>
 <ul>
-<li><span class="math">\(M \in \{0,1,2,...,65535\}\)</span></li>
+<li><span class="math inline">\(M \in \{0,1,2,...,65535\}\)</span></li>
 <li>How many bytes need to store 255 bytes?</li>
 </ul></li>
 </ul>
 </section><section id="text-blob" class="slide level2">
-<h1><a href="#/text-blob">Text &amp; Blob</a></h1>
+<h1>Text &amp; Blob</h1>
 <ul>
 <li>Contributes 9-12B toward total row size</li>
 <li>8B + Length Bytes</li>
@@ -393,7 +393,7 @@ CREATE TABLE DBLTest ( val DOUBLE ); Insert into DBLTest VALUES (.1),(.7); Selec
 </tbody>
 </table>
 </section><section id="row-size-1" class="slide level2">
-<h1><a href="#/row-size-1">Row Size</a></h1>
+<h1>Row Size</h1>
 <ul>
 <li>Calculating total row size
 <ul>
@@ -405,11 +405,11 @@ CREATE TABLE DBLTest ( val DOUBLE ); Insert into DBLTest VALUES (.1),(.7); Selec
 </ul></li>
 </ul>
 <aside class="notes">
-Method I used: Space left in row when using TINYBLOB NOT NULL 65535-(8+1)=65526 Space left in row when using VARCHAR NOT NULL &gt; 255 65526-(2) = 65524Space left in row when using MEDIUMBLOB NOT NULL 65535-(8+3)=65524 Space left in row when using VARCHAR NOT NULL &gt; 255 65524-(2) = 65522
+<p>Method I used: Space left in row when using TINYBLOB NOT NULL 65535-(8+1)=65526 Space left in row when using VARCHAR NOT NULL &gt; 255 65526-(2) = 65524Space left in row when using MEDIUMBLOB NOT NULL 65535-(8+3)=65524 Space left in row when using VARCHAR NOT NULL &gt; 255 65524-(2) = 65522</p>
 </aside>
 </section></section>
-<section><section id="constraints" class="titleslide slide level1"><h1><a href="#/constraints">Constraints</a></h1></section><section id="domains" class="slide level2">
-<h1><a href="#/domains">Domains</a></h1>
+<section><section id="constraints" class="titleslide slide level1"><h1>Constraints</h1></section><section id="domains" class="slide level2">
+<h1>Domains</h1>
 <dl>
 <dt>Domain</dt>
 <dd>Custom specification of data type to be used by multiple attributes.
@@ -421,7 +421,7 @@ Method I used: Space left in row when using TINYBLOB NOT NULL 65535-(8+1)=65526 
 </ul>
 <pre class="sql"><code>CREATE DOMAIN SSN_TYPE AS CHAR(9);</code></pre>
 </section><section id="basic" class="slide level2">
-<h1><a href="#/basic">Basic</a></h1>
+<h1>Basic</h1>
 <ul>
 <li>Key and referential constraints
 <ul>
@@ -438,7 +438,7 @@ Method I used: Space left in row when using TINYBLOB NOT NULL 65535-(8+1)=65526 
 </ul></li>
 </ul>
 </section><section id="check" class="slide level2">
-<h1><a href="#/check">Check</a></h1>
+<h1>Check</h1>
 <ul>
 <li><code>CHECK</code> clause
 <ul>
@@ -448,7 +448,7 @@ Method I used: Space left in row when using TINYBLOB NOT NULL 65535-(8+1)=65526 
 </ul>
 <pre class="sql"><code>CHECK (Dnumber &gt; 0 AND Dnumber &lt; 21)</code></pre>
 </section><section id="key" class="slide level2">
-<h1><a href="#/key">Key</a></h1>
+<h1>Key</h1>
 <ul>
 <li><code>PRIMARY KEY</code> clause
 <ul>
@@ -466,7 +466,7 @@ Method I used: Space left in row when using TINYBLOB NOT NULL 65535-(8+1)=65526 
 <pre class="sql"><code>PRIMARY KEY (Dnumber)  -- as part of table options</code></pre>
 <pre class="sql"><code>UNIQUE KEY (Dname)  -- as part of table options</code></pre>
 </section><section id="keys" class="slide level2">
-<h1><a href="#/keys">Keys</a></h1>
+<h1>Keys</h1>
 <ul>
 <li><code>FOREIGN KEY</code> clause
 <ul>
@@ -480,8 +480,8 @@ Method I used: Space left in row when using TINYBLOB NOT NULL 65535-(8+1)=65526 
 </ul>
 <pre class="sql"><code>FOREIGN KEY (super_ssn) REFERENCES (ssn)  -- as part of table options</code></pre>
 </section></section>
-<section><section id="creation" class="titleslide slide level1"><h1><a href="#/creation">Creation</a></h1></section><section id="create-syntax" class="slide level2">
-<h1><a href="#/create-syntax">Create Syntax</a></h1>
+<section><section id="creation" class="titleslide slide level1"><h1>Creation</h1></section><section id="create-syntax" class="slide level2">
+<h1>Create Syntax</h1>
 <pre class="sql"><code>CREATE TABLE tbl_name
     ( col_name1 TYPE [options],
     col_name2 TYPE [options],
@@ -491,7 +491,7 @@ Method I used: Space left in row when using TINYBLOB NOT NULL 65535-(8+1)=65526 
     FOREIGN KEY (col2_name) REFERENCES tbl2_name(other_col_name)
     ); [table_options]  -- Note FK can reference same table too!</code></pre>
 </section><section id="create-table" class="slide level2">
-<h1><a href="#/create-table">Create Table</a></h1>
+<h1>Create Table</h1>
 <pre class="sql"><code>CREATE TABLE EMPLOYEE 
     ( 
     Fname VARCHAR(15) NOT NULL,
@@ -520,7 +520,7 @@ CREATE TABLE DEPARTMENT
     FOREIGN KEY (Mgr_ssn) REFERENCES EMPLOYEE(Ssn)
     );</code></pre>
 </section><section id="chicken-egg" class="slide level2">
-<h1><a href="#/chicken-egg">Chicken Egg</a></h1>
+<h1>Chicken Egg</h1>
 <ul>
 <li>Some FK’s may cause errors when creating tables</li>
 <li>How can you fix?</li>
@@ -529,7 +529,7 @@ CREATE TABLE DEPARTMENT
 <pre class="sql"><code>ALTER TABLE tbl_name ADD FOREIGN KEY (col_name) REFERENCES other_tbl(other_col);</code></pre>
 </div>
 </section><section id="chicken-egg-1" class="slide level2">
-<h1><a href="#/chicken-egg-1">Chicken Egg</a></h1>
+<h1>Chicken Egg</h1>
 <ul>
 <li>Same applies for rows, see <code>EMPLOYEE.Dno</code> and <code>DEPARTMENT.Mgr_ssn</code></li>
 </ul>
@@ -537,8 +537,8 @@ CREATE TABLE DEPARTMENT
 <p>Deviation from SQL standards: … InnoDB checks foreign key constraints immediately; the check is not deferred to transaction commit. According to the SQL standard, the default behavior should be deferred checking. That is, constraints are only checked after the entire SQL statement has been processed. Until InnoDB implements deferred constraint checking, some things will be impossible, such as deleting a record that refers to itself using a foreign key.</p>
 </blockquote>
 </section></section>
-<section><section id="insertion" class="titleslide slide level1"><h1><a href="#/insertion">Insertion</a></h1></section><section id="insert" class="slide level2">
-<h1><a href="#/insert">Insert</a></h1>
+<section><section id="insertion" class="titleslide slide level1"><h1>Insertion</h1></section><section id="insert" class="slide level2">
+<h1>Insert</h1>
 <ul>
 <li>Insert data using the <code>INSERT</code> statement
 <ul>
@@ -556,8 +556,8 @@ CREATE TABLE DEPARTMENT
 -- OR
 INSERT INTO table_name (column1,column2,column3,...) VALUES (value1,value2,value3,...);</code></pre>
 </section></section>
-<section><section id="retrieval" class="titleslide slide level1"><h1><a href="#/retrieval">Retrieval</a></h1></section><section id="selection" class="slide level2">
-<h1><a href="#/selection">Selection</a></h1>
+<section><section id="retrieval" class="titleslide slide level1"><h1>Retrieval</h1></section><section id="selection" class="slide level2">
+<h1>Selection</h1>
 <dl>
 <dt><code>SELECT</code></dt>
 <dd>Basic statement used to retreive data from DBMS.
@@ -578,7 +578,7 @@ INSERT INTO table_name (column1,column2,column3,...) VALUES (value1,value2,value
 </dd>
 </dl>
 </section><section id="comparison" class="slide level2">
-<h1><a href="#/comparison">Comparison</a></h1>
+<h1>Comparison</h1>
 <ul>
 <li>Relational Comparison Operators
 <ul>
@@ -592,7 +592,7 @@ INSERT INTO table_name (column1,column2,column3,...) VALUES (value1,value2,value
 </ul></li>
 </ul>
 </section><section id="comparisonarithmetic" class="slide level2">
-<h1><a href="#/comparisonarithmetic">Comparison/Arithmetic</a></h1>
+<h1>Comparison/Arithmetic</h1>
 <ul>
 <li><code>LIKE</code> comparison operator
 <ul>
@@ -610,7 +610,7 @@ INSERT INTO table_name (column1,column2,column3,...) VALUES (value1,value2,value
 </ul></li>
 </ul>
 </section><section id="order" class="slide level2">
-<h1><a href="#/order">Order</a></h1>
+<h1>Order</h1>
 <ul>
 <li>DBMS will make no guarantee of the order without an <code>ORDER BY</code> clause
 <ul>
@@ -620,7 +620,7 @@ INSERT INTO table_name (column1,column2,column3,...) VALUES (value1,value2,value
 </ul>
 <pre class="sql"><code>SELECT name FROM Product WHERE price &gt; 2 ORDER BY price DESC, name ASC;</code></pre>
 </section><section id="duplicates" class="slide level2">
-<h1><a href="#/duplicates">Duplicates</a></h1>
+<h1>Duplicates</h1>
 <ul>
 <li>SQL does not automatically eliminate <strong><em>duplicate rows</em></strong></li>
 <li>Use keyword <code>DISTINCT</code> with a <code>SELECT</code></li>
@@ -629,7 +629,7 @@ INSERT INTO table_name (column1,column2,column3,...) VALUES (value1,value2,value
 
 SELECT DISTINCT salary FROM EMPLOYEE; </code></pre>
 </section><section id="conceptual-steps" class="slide level2">
-<h1><a href="#/conceptual-steps">Conceptual Steps</a></h1>
+<h1>Conceptual Steps</h1>
 <ul>
 <li>Iterate over each row</li>
 <li>Check selection condition</li>
@@ -638,7 +638,7 @@ SELECT DISTINCT salary FROM EMPLOYEE; </code></pre>
 </ul>
 <pre class="sql"><code>SELECT name FROM Product WHERE price &gt; 2 ORDER BY price;</code></pre>
 </section><section id="views" class="slide level2">
-<h1><a href="#/views">Views</a></h1>
+<h1>Views</h1>
 <ul>
 <li>Last thing before we practice…</li>
 </ul>
@@ -648,8 +648,8 @@ SELECT DISTINCT salary FROM EMPLOYEE; </code></pre>
 </ul>
 <pre class="sql"><code>CREATE VIEW ProductValues AS SELECT qty*price AS value FROM Product;</code></pre>
 </section></section>
-<section><section id="modification" class="titleslide slide level1"><h1><a href="#/modification">Modification</a></h1></section><section id="update" class="slide level2">
-<h1><a href="#/update">UPDATE</a></h1>
+<section><section id="modification" class="titleslide slide level1"><h1>Modification</h1></section><section id="update" class="slide level2">
+<h1>UPDATE</h1>
 <ul>
 <li><code>UPDATE</code> Syntax</li>
 </ul>
@@ -658,15 +658,15 @@ SELECT DISTINCT salary FROM EMPLOYEE; </code></pre>
 <li>WARNING: Failure to include a WHERE clause will cause it to operate on all rows!!!!</li>
 </ul>
 </section><section id="delete" class="slide level2">
-<h1><a href="#/delete">DELETE</a></h1>
+<h1>DELETE</h1>
 <ul>
 <li><p><code>DELETE</code> Syntax</p>
 <pre class="sql"><code>DELETE FROM table WHERE col1=val1;</code></pre></li>
 <li><p>WARNING: Failure to include a WHERE clause will cause it to operate on all rows!!!!</p></li>
 </ul>
 </section></section>
-<section><section id="multiple-tables" class="titleslide slide level1"><h1><a href="#/multiple-tables">Multiple Tables</a></h1></section><section id="selection-1" class="slide level2">
-<h1><a href="#/selection-1">Selection</a></h1>
+<section><section id="multiple-tables" class="titleslide slide level1"><h1>Multiple Tables</h1></section><section id="selection-1" class="slide level2">
+<h1>Selection</h1>
 <ul>
 <li>When selecting from multiple tables you must <code>JOIN</code> them</li>
 <li>Types of JOINS
@@ -692,13 +692,13 @@ SELECT DISTINCT salary FROM EMPLOYEE; </code></pre>
 </ul></li>
 </ul>
 </section><section id="join-reference" class="slide level2">
-<h1><a href="#/join-reference">JOIN Reference</a></h1>
+<h1>JOIN Reference</h1>
 <ul>
 <li>Refer to <code>JOIN</code> documentation in book</li>
 <li>Sections 8.1 - 8.4</li>
 </ul>
 </section><section id="ambiguous-attributes" class="slide level2">
-<h1><a href="#/ambiguous-attributes">Ambiguous Attributes</a></h1>
+<h1>Ambiguous Attributes</h1>
 <ul>
 <li>Same name can be used for two or more attributes (in different relations/tables)</li>
 <li>When selecting must <strong>qualify</strong> the attribute name with relation name
@@ -709,7 +709,7 @@ SELECT DISTINCT salary FROM EMPLOYEE; </code></pre>
 <pre class="sql"><code>SELECT Fname, EMPLOYEE.Name, Address FROM EMPLOYEE, DEPARTMENT
 WHERE DEPARTMENT.Name = &#39;Research&#39; AND DEPARTMENT.Dnumber = EMPLOYEE.Dnumber;</code></pre>
 </section><section id="aliasing" class="slide level2">
-<h1><a href="#/aliasing">Aliasing</a></h1>
+<h1>Aliasing</h1>
 <ul>
 <li>Alias using the AS keyword</li>
 </ul>
@@ -719,7 +719,7 @@ WHERE DEPARTMENT.Name = &#39;Research&#39; AND DEPARTMENT.Dnumber = EMPLOYEE.Dnu
 
 -- MySQL Ex: Select C.id AS i, C.Name AS n FROM Company AS C;</code></pre>
 </section><section id="er-diagram" class="slide level2">
-<h1><a href="#/er-diagram">ER Diagram</a></h1>
+<h1>ER Diagram</h1>
 <figure>
 <img src="Product-Category-Company-ER.png" alt="Product Company Category ER" /><figcaption>Product Company Category ER</figcaption>
 </figure>
@@ -727,7 +727,7 @@ WHERE DEPARTMENT.Name = &#39;Research&#39; AND DEPARTMENT.Dnumber = EMPLOYEE.Dnu
 <li>Convert to Relations</li>
 </ul>
 </section><section id="pure-relations" class="slide level2">
-<h1><a href="#/pure-relations">Pure Relations</a></h1>
+<h1>Pure Relations</h1>
 <figure>
 <img src="Product-Category-Company-Pure-Relations.drawio.png" alt="Product Company Category Pure Relations" /><figcaption>Product Company Category Pure Relations</figcaption>
 </figure>
@@ -736,7 +736,7 @@ WHERE DEPARTMENT.Name = &#39;Research&#39; AND DEPARTMENT.Dnumber = EMPLOYEE.Dnu
 <li>Calculate Row Sizes</li>
 </ul>
 </section><section id="sensible-relations" class="slide level2">
-<h1><a href="#/sensible-relations">Sensible Relations</a></h1>
+<h1>Sensible Relations</h1>
 <figure>
 <img src="Product-Category-Company-Relations.drawio.png" alt="Product Company Category Sensible Relations" /><figcaption>Product Company Category Sensible Relations</figcaption>
 </figure>
@@ -745,7 +745,7 @@ WHERE DEPARTMENT.Name = &#39;Research&#39; AND DEPARTMENT.Dnumber = EMPLOYEE.Dnu
 <li>Calculate Row Sizes</li>
 </ul>
 </section><section id="sql" class="slide level2">
-<h1><a href="#/sql">SQL</a></h1>
+<h1>SQL</h1>
 <pre class="sql"><code>
 -- DROP Existing
 
@@ -814,14 +814,14 @@ Insert INTO Product (name, category, company, qty, price) Select &quot;120 Piece
 Insert INTO Product (name, category, company, qty, price) Select &quot;Hot-wheels Car&quot;, NULL, NULL, 10, .99 ;
 </code></pre>
 </section><section id="practice-1-of-2" class="slide level2">
-<h1><a href="#/practice-1-of-2">Practice (1 of 2)</a></h1>
+<h1>Practice (1 of 2)</h1>
 <ol type="1">
 <li>Create a view showing the values of the product on hand.</li>
 <li>Select all the products and the category that the product is in.</li>
 <li>Select the <em>product name</em> and the <em>category name</em> of all the products.</li>
 </ol>
 </section><section id="practice-2-of-2" class="slide level2">
-<h1><a href="#/practice-2-of-2">Practice (2 of 2)</a></h1>
+<h1>Practice (2 of 2)</h1>
 <ol start="4" type="1">
 <li>Select all the products, the categories they belong to, and the company the product is made by. Hint: LEFT LEFT!
 <ul>

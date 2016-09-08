@@ -45,8 +45,8 @@
 </ul>
 </section>
 
-<section><section id="socket.io" class="titleslide slide level1"><h1><a href="#/socket.io">socket.io</a></h1></section><section id="chat-server" class="slide level2">
-<h1><a href="#/chat-server">Chat Server</a></h1>
+<section><section id="socket.io" class="titleslide slide level1"><h1>socket.io</h1></section><section id="chat-server" class="slide level2">
+<h1>Chat Server</h1>
 <ul>
 <li>Options for chat server
 <ul>
@@ -56,10 +56,10 @@
 </ul></li>
 </ul>
 </section><section id="web-socket-vs-requestresponse" class="slide level2">
-<h1><a href="#/web-socket-vs-requestresponse">Web Socket vs Request/Response</a></h1>
+<h1>Web Socket vs Request/Response</h1>
 <p><img src="http://www.websocket.org/img/latency-comparison.gif"></p>
 </section><section id="socket.io-server" class="slide level2">
-<h1><a href="#/socket.io-server">Socket.io Server</a></h1>
+<h1>Socket.io Server</h1>
 <pre class="bash"><code>npm install socket.io</code></pre>
 <pre class="javascript"><code>// app.js
 
@@ -79,7 +79,7 @@ server.listen(8024, function() {
   console.log(&#39;Express server is listening on port 8024...&#39;);
 });</code></pre>
 </section><section id="client-template" class="slide level2">
-<h1><a href="#/client-template">Client Template</a></h1>
+<h1>Client Template</h1>
 <ul>
 <li>Template we will use</li>
 </ul>
@@ -107,7 +107,7 @@ server.listen(8024, function() {
  &lt;/body&gt;
 &lt;/html&gt;</code></pre>
 </section><section id="socket.io-client" class="slide level2">
-<h1><a href="#/socket.io-client">Socket.io Client</a></h1>
+<h1>Socket.io Client</h1>
 <ul>
 <li>Don’t forget to put the <code>socket.io.js</code> and <code>jquery-2.1.3.min.js</code> in the <code>public/libs</code> folder!</li>
 </ul>
@@ -119,7 +119,7 @@ server.listen(8024, function() {
    var server = io.connect(&#39;http://una.dbms.rocks:8024&#39;);
 &lt;/script&gt;</code></pre>
 </section><section id="sending-events-client-to-server" class="slide level2">
-<h1><a href="#/sending-events-client-to-server">Sending Events Client to Server</a></h1>
+<h1>Sending Events Client to Server</h1>
 <ul>
 <li>Use <code>emit()</code> passing object to send</li>
 <li>Object will be sent to server using socket.io</li>
@@ -130,7 +130,7 @@ server.listen(8024, function() {
      server.emit(&#39;setUsername&#39;, {username : &#39;bsmith&#39;});
 &lt;/script&gt;</code></pre>
 </section><section id="receiving-events-on-server" class="slide level2">
-<h1><a href="#/receiving-events-on-server">Receiving Events on Server</a></h1>
+<h1>Receiving Events on Server</h1>
 <ul>
 <li>Register a <code>.on()</code> to listen for events
 <ul>
@@ -150,7 +150,7 @@ io.sockets.on(&#39;connection&#39;, function(client) {
 
 });</code></pre>
 </section><section id="sending-events-client-to-server-1" class="slide level2">
-<h1><a href="#/sending-events-client-to-server-1">Sending Events Client to Server</a></h1>
+<h1>Sending Events Client to Server</h1>
 <ul>
 <li>Probably don’t want everyone to have <code>bsmith</code></li>
 <li>Lets ask them for their user</li>
@@ -167,12 +167,12 @@ io.sockets.on(&#39;connection&#39;, function(client) {
    });
 &lt;/script&gt;</code></pre>
 </section><section id="try-it" class="slide level2">
-<h1><a href="#/try-it">Try it</a></h1>
+<h1>Try it</h1>
 <ul>
 <li>Practice Time</li>
 </ul>
 </section><section id="sending-events-server-to-client" class="slide level2">
-<h1><a href="#/sending-events-server-to-client">Sending Events Server to Client</a></h1>
+<h1>Sending Events Server to Client</h1>
 <ul>
 <li>Use <code>emit()</code>!
 <ul>
@@ -194,7 +194,7 @@ io.sockets.on(&#39;connection&#39;, function(client) {
     io.emit(&#39;someEvent&#39;, {}); //broadcast to all connected sockets
   });</code></pre>
 </section><section id="receiving-events-on-client" class="slide level2">
-<h1><a href="#/receiving-events-on-client">Receiving Events on Client</a></h1>
+<h1>Receiving Events on Client</h1>
 <ul>
 <li>Register a <code>on()</code>!</li>
 <li>Thats it!</li>
@@ -205,7 +205,7 @@ io.sockets.on(&#39;connection&#39;, function(client) {
      console.log(data);
    });</code></pre>
 </section><section id="try-it-1" class="slide level2">
-<h1><a href="#/try-it-1">Try it</a></h1>
+<h1>Try it</h1>
 <ul>
 <li>Practice Time
 <ul>
@@ -221,7 +221,7 @@ io.sockets.on(&#39;connection&#39;, function(client) {
 </ul></li>
 </ul>
 </section><section id="hint-app" class="slide level2">
-<h1><a href="#/hint-app">Hint App</a></h1>
+<h1>Hint App</h1>
 <pre class="javascript"><code>//app.js
 
 io.sockets.on(&#39;connection&#39;, function(client) {
@@ -233,7 +233,7 @@ io.sockets.on(&#39;connection&#39;, function(client) {
 });
 </code></pre>
 </section><section id="hint-index" class="slide level2">
-<h1><a href="#/hint-index">Hint Index</a></h1>
+<h1>Hint Index</h1>
 <pre class="html"><code>&lt;script&gt;
    // socket io and username setup stuff
 
@@ -253,12 +253,12 @@ io.sockets.on(&#39;connection&#39;, function(client) {
    });
  &lt;/script&gt;</code></pre>
 </section><section id="try-it-2" class="slide level2">
-<h1><a href="#/try-it-2">Try it</a></h1>
+<h1>Try it</h1>
 <ul>
 <li>Practice Time</li>
 </ul>
 </section><section id="solution-app" class="slide level2">
-<h1><a href="#/solution-app">Solution App</a></h1>
+<h1>Solution App</h1>
 <pre class="javascript"><code>
 // app.js
 var express = require(&#39;express&#39;);
@@ -285,7 +285,7 @@ server.listen(8024, function() {
   console.log(&#39;Express server is listening on port 8024...&#39;);
 });</code></pre>
 </section><section id="solution-index" class="slide level2">
-<h1><a href="#/solution-index">Solution Index</a></h1>
+<h1>Solution Index</h1>
 <pre class="html"><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
  &lt;head&gt;
@@ -342,13 +342,13 @@ server.listen(8024, function() {
 
 &lt;/html&gt;</code></pre>
 </section></section>
-<section><section id="persistence" class="titleslide slide level1"><h1><a href="#/persistence">Persistence</a></h1></section><section id="persistence-1" class="slide level2">
-<h1><a href="#/persistence-1">Persistence</a></h1>
+<section><section id="persistence" class="titleslide slide level1"><h1>Persistence</h1></section><section id="persistence-1" class="slide level2">
+<h1>Persistence</h1>
 <ul>
 <li>What happens when you first get to the chatroom?</li>
 </ul>
 </section><section id="persistence-2" class="slide level2">
-<h1><a href="#/persistence-2">Persistence</a></h1>
+<h1>Persistence</h1>
 <ul>
 <li>Show the last 10 messages by storing them in mongodb capped collection</li>
 </ul>
