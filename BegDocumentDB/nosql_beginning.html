@@ -699,7 +699,24 @@ db.students.find({_id:12345});
 </ul>
 <pre class="javascript"><code>db.students.remove({}); //Dang!</code></pre>
 </section></section>
-<section><section id="practice-2" class="titleslide slide level1"><h1>Practice</h1></section><section id="example-products" class="slide level2">
+<section><section id="practice-2" class="titleslide slide level1"><h1>Practice</h1></section><section id="relational-products-design" class="slide level2">
+<h1>Relational Products Design</h1>
+<figure>
+<img src="Product-Category-Company-Relations.drawio.png" alt="Product Company Category Sensible Relations" /><figcaption>Product Company Category Sensible Relations</figcaption>
+</figure>
+</section><section id="document-products-design" class="slide level2">
+<h1>Document Products Design</h1>
+<ul>
+<li><p>3 tables become a single document</p>
+<pre class="json"><code>{
+  &quot;name&quot;: &quot;Sample Product&quot;,
+  &quot;qty&quot;: 3,
+  &quot;price&quot;: 19.99,
+  &quot;company&quot;: &quot;Sample Company&quot;,
+  &quot;category&quot;: &quot;Product Category&quot;
+}</code></pre></li>
+</ul>
+</section><section id="example-products" class="slide level2">
 <h1>Example Products</h1>
 <ul>
 <li>On lab computer, open your cloud 9 environmnet</li>
