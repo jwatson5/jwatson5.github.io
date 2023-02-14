@@ -1,0 +1,1413 @@
+{
+  "_id": "12253016",
+  "listing_url": "https://www.airbnb.com/rooms/12253016",
+  "name": "APARTAMENTO PARA AS OLIMPIADAS",
+  "summary": "Apartamento a três quadras da praia de Ipanema , cerca de  200 metros do metrô e a todas as linhas de ônibus, apartamento claro e arejado, bem decorado e com bastante conforto.",
+  "property_type": "Apartment",
+  "amenities": [
+    "TV",
+    "Cable TV",
+    "Internet",
+    "Wifi",
+    "Air conditioning",
+    "Kitchen",
+    "Elevator",
+    "Buzzer/wireless intercom",
+    "Family/kid friendly",
+    "Washer",
+    "24-hour check-in",
+    "Hair dryer"
+  ],
+  "price": 679.00,
+  "address": {
+    "street": "Rio de Janeiro, Rio de Janeiro, Brazil",
+    "suburb": "Ipanema",
+    "government_area": "Ipanema",
+    "market": "Rio De Janeiro",
+    "country": "Brazil",
+    "country_code": "BR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -43.2023558879285,
+        -22.98352041283106
+      ],
+      "is_location_exact": false
+    }
+  }
+}
+{
+  "_id": "12270044",
+  "listing_url": "https://www.airbnb.com/rooms/12270044",
+  "name": "IPANEMA VILLE RESIDENCE",
+  "summary": "Excelente flat próximo à praia de ipanema, todo mobiliado, incluindo ar-condicionado, tv a cabo, internet, com vista parcial da lagoa Rodrigues de Freitas, perto do comércio e metrô. Estrutura com piscina, sauna, sala de tv e lavanderia.",
+  "property_type": "Apartment",
+  "amenities": [
+    "Cable TV",
+    "Internet",
+    "Wifi",
+    "Air conditioning",
+    "Wheelchair accessible",
+    "Pool",
+    "Kitchen",
+    "Free parking on premises",
+    "Doorman",
+    "Gym",
+    "Elevator",
+    "Buzzer/wireless intercom",
+    "Family/kid friendly",
+    "Washer",
+    "Dryer",
+    "Smoke detector",
+    "24-hour check-in",
+    "Hangers",
+    "Iron"
+  ],
+  "price": 1701,
+  "address": {
+    "street": "Rio de Janeiro, Rio de Janeiro, Brazil",
+    "suburb": "Ipanema",
+    "government_area": "Ipanema",
+    "market": "Rio De Janeiro",
+    "country": "Brazil",
+    "country_code": "BR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -43.202238135410624,
+        -22.9813700874583
+      ],
+      "is_location_exact": false
+    }
+  }
+}
+{
+  "_id": "12253386",
+  "listing_url": "https://www.airbnb.com/rooms/12253386",
+  "name": "Studio on main entertainment street",
+  "summary": "Cozy studio with very high ceilings - room with a double bed, big enough for travelers planning on doing a lot of exploring! Right between St-Denis and St-Laurent - the two lively restaurant and bar streets in the entertainment district of Montreal.",
+  "property_type": "Apartment",
+  "amenities": [
+    "Internet",
+    "Wifi",
+    "Kitchen",
+    "Buzzer/wireless intercom",
+    "Heating",
+    "Family/kid friendly",
+    "Washer",
+    "Dryer",
+    "Essentials",
+    "24-hour check-in",
+    "Hangers",
+    "Hair dryer",
+    "translation missing: en.hosting_amenity_50"
+  ],
+  "price": 42,
+  "address": {
+    "street": "Montréal, Québec, Canada",
+    "suburb": "Quartier des Spectacles",
+    "government_area": "Ville-Marie",
+    "market": "Montreal",
+    "country": "Canada",
+    "country_code": "CA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -73.56526,
+        45.51424
+      ],
+      "is_location_exact": true
+    }
+  }
+}
+{
+  "_id": "1227759",
+  "listing_url": "https://www.airbnb.com/rooms/1227759",
+  "name": "Sudio Dolbeau near Mont-Royal",
+  "summary": "",
+  "property_type": "Loft",
+  "amenities": [
+    "TV",
+    "Cable TV",
+    "Internet",
+    "Wifi",
+    "Air conditioning",
+    "Wheelchair accessible",
+    "Kitchen",
+    "Free parking on premises",
+    "Heating",
+    "Family/kid friendly",
+    "Washer",
+    "Dryer",
+    "Smoke detector",
+    "First aid kit",
+    "Safety card",
+    "Essentials",
+    "Shampoo"
+  ],
+  "price": 81,
+  "address": {
+    "street": "Montreal, QC, Canada",
+    "suburb": "Cote-des-Neiges-Notre-Dame-de-Grace",
+    "government_area": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+    "market": "Montreal",
+    "country": "Canada",
+    "country_code": "CA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -73.62797,
+        45.50286
+      ],
+      "is_location_exact": true
+    }
+  }
+}
+{
+  "_id": "12247516",
+  "listing_url": "https://www.airbnb.com/rooms/12247516",
+  "name": "Huge duplex apt. up to 8 in Taksim",
+  "summary": "Our flat is located in the heart of the city. Istiklal Avenue and Taksim Square are 3 minutes away. The flat is all yours. Feel free to relax and enjoy our magnificiant city.",
+  "property_type": "Apartment",
+  "amenities": [
+    "TV",
+    "Cable TV",
+    "Wifi",
+    "Air conditioning",
+    "Kitchen",
+    "Paid parking off premises",
+    "Pets allowed",
+    "Free street parking",
+    "Heating",
+    "Family/kid friendly",
+    "Washer",
+    "Dryer",
+    "Carbon monoxide detector",
+    "Fire extinguisher",
+    "Essentials",
+    "Hangers",
+    "Hair dryer",
+    "Iron",
+    "Laptop friendly workspace",
+    "Pack ’n Play/travel crib",
+    "Hot water",
+    "Bed linens",
+    "Refrigerator",
+    "Dishes and silverware",
+    "Stove",
+    "Patio or balcony",
+    "Luggage dropoff allowed",
+    "Long term stays allowed"
+  ],
+  "price": 475,
+  "address": {
+    "street": "Beyoğlu, İstanbul, Turkey",
+    "suburb": "Taksim",
+    "government_area": "Beyoglu",
+    "market": "Istanbul",
+    "country": "Turkey",
+    "country_code": "TR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        28.98224,
+        41.03832
+      ],
+      "is_location_exact": true
+    }
+  }
+}
+{
+  "_id": "12288463",
+  "listing_url": "https://www.airbnb.com/rooms/12288463",
+  "name": "Beautiful 3BR flat in the Center",
+  "summary": "Historic comfy apartment enough to accommodate up to 7 people, very spacious and bright. Best location in the centre of Istanbul. Has all the comforts: kitchen, bathroom with shower, heating, bed line & towels.",
+  "property_type": "Apartment",
+  "amenities": [
+    "TV",
+    "Internet",
+    "Wifi",
+    "Kitchen",
+    "Paid parking off premises",
+    "Smoking allowed",
+    "Heating",
+    "Family/kid friendly",
+    "Washer",
+    "Dryer",
+    "Essentials",
+    "Shampoo",
+    "24-hour check-in",
+    "Hangers",
+    "Hair dryer",
+    "Iron",
+    "Laptop friendly workspace",
+    "translation missing: en.hosting_amenity_50",
+    "Hot water",
+    "Bed linens",
+    "Extra pillows and blankets",
+    "Refrigerator",
+    "Dishwasher",
+    "Dishes and silverware",
+    "Cooking basics",
+    "Stove",
+    "Luggage dropoff allowed",
+    "Host greets you"
+  ],
+  "price": 559,
+  "address": {
+    "street": "Beyoğlu, İstanbul, Turkey",
+    "suburb": "Beyoglu",
+    "government_area": "Beyoglu",
+    "market": "Istanbul",
+    "country": "Turkey",
+    "country_code": "TR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        28.9739,
+        41.02655
+      ],
+      "is_location_exact": false
+    }
+  }
+}
+{
+  "_id": "12290090",
+  "listing_url": "https://www.airbnb.com/rooms/12290090",
+  "name": "Alugo suíte prx Parque Olimpico e Rio Centro",
+  "summary": "Alugo suite Quarto com cama de casal, armarios, TV, ar condicionado e banheiro exclusivo. Perto do parque olímpico, shoppings e estação do BRT. Perto também das praias da Barra e Recreio. Alugo suíte no Parque Olímpico / Barra da Tijuca, próximo ao Recreio e Rio Centro. Condominio próximo a estação Pedro Correa do BRT (ônibus de faixa própria) com piscina, quadra e jardins. Perto do Shopping Metropolitano e supermercados. Fácil acesso à praia da Barra da Tijuca e Recreio dos Bandeirantes.",
+  "property_type": "Apartment",
+  "amenities": [
+    "TV",
+    "Cable TV",
+    "Wifi",
+    "Pool",
+    "Kitchen",
+    "Gym",
+    "Elevator",
+    "Buzzer/wireless intercom",
+    "Washer",
+    "Smoke detector",
+    "Carbon monoxide detector",
+    "First aid kit",
+    "Safety card",
+    "Fire extinguisher",
+    "Lock on bedroom door",
+    "translation missing: en.hosting_amenity_49",
+    "translation missing: en.hosting_amenity_50"
+  ],
+  "price": 399,
+  "address": {
+    "street": "Rio de Janeiro, Rio de Janeiro, Brazil",
+    "suburb": "Barra da Tijuca",
+    "government_area": "Jacarepaguá",
+    "market": "Rio De Janeiro",
+    "country": "Brazil",
+    "country_code": "BR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -43.393534232339206,
+        -22.969013331100093
+      ],
+      "is_location_exact": false
+    }
+  }
+}
+{
+  "_id": "12291906",
+  "listing_url": "https://www.airbnb.com/rooms/12291906",
+  "name": "Quarto simples, centro do Rio.",
+  "summary": "O quarto é confortável, mobilhado e dispõe de uma bela varanda.  A pessoa terá  acesso aos demais cômodos sociais do apartamento. O condomínio tem porteiro 24h, é bem localizado com metrô, ônibus, mercado, banco e todo tipo de comercio aos redores.",
+  "property_type": "Apartment",
+  "amenities": [
+    "Wifi",
+    "Wheelchair accessible",
+    "Kitchen",
+    "Doorman",
+    "Elevator",
+    "Buzzer/wireless intercom",
+    "Washer",
+    "Dryer",
+    "Smoke detector",
+    "Safety card",
+    "Essentials",
+    "Lock on bedroom door",
+    "Hangers",
+    "Iron",
+    "Laptop friendly workspace"
+  ],
+  "price": 60,
+  "address": {
+    "street": "Rio de Janeiro, Rio de Janeiro, Brazil",
+    "suburb": "Lapa",
+    "government_area": "Centro",
+    "market": "Rio De Janeiro",
+    "country": "Brazil",
+    "country_code": "BR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -43.18471637510573,
+        -22.913416062054356
+      ],
+      "is_location_exact": false
+    }
+  }
+}
+{
+  "_id": "12259367",
+  "listing_url": "https://www.airbnb.com/rooms/12259367",
+  "name": "STUDIO APARTMENT + WIFI!!!!",
+  "summary": "This fully furnished apartment includes marble bathroom with shower, kitchennette, Laundry and full access to a spacious gym and pool with a view!",
+  "property_type": "Apartment",
+  "amenities": [
+    "TV",
+    "Internet",
+    "Wifi",
+    "Air conditioning",
+    "Wheelchair accessible",
+    "Pool",
+    "Kitchen",
+    "Paid parking off premises",
+    "Gym",
+    "Elevator",
+    "Hot tub",
+    "Buzzer/wireless intercom",
+    "Heating",
+    "Washer",
+    "Dryer",
+    "Smoke detector",
+    "Carbon monoxide detector",
+    "Essentials",
+    "Shampoo",
+    "24-hour check-in",
+    "Hangers",
+    "Hair dryer",
+    "Iron",
+    "Laptop friendly workspace",
+    "Private entrance",
+    "Hot water",
+    "Bed linens",
+    "Microwave",
+    "Refrigerator",
+    "Dishes and silverware",
+    "Cooking basics",
+    "Stove",
+    "Patio or balcony",
+    "Long term stays allowed",
+    "Host greets you"
+  ],
+  "price": 125,
+  "address": {
+    "street": "sydney, NSW, Australia",
+    "suburb": "Central Business District",
+    "government_area": "Sydney",
+    "market": "Sydney",
+    "country": "Australia",
+    "country_code": "AU",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        151.20677,
+        -33.8671
+      ],
+      "is_location_exact": false
+    }
+  }
+}
+{
+  "_id": "1229106",
+  "listing_url": "https://www.airbnb.com/rooms/1229106",
+  "name": "Unit 310 Hawaiian King condo Waikik",
+  "summary": "",
+  "property_type": "Apartment",
+  "amenities": [
+    "TV",
+    "Cable TV",
+    "Air conditioning",
+    "Pool",
+    "Kitchen",
+    "Elevator",
+    "Family/kid friendly",
+    "Washer",
+    "Dryer",
+    "Essentials",
+    "Hangers",
+    "Iron",
+    "Private living room",
+    "Hot water",
+    "Bed linens",
+    "Microwave",
+    "Coffee maker",
+    "Refrigerator",
+    "Dishes and silverware",
+    "Cooking basics",
+    "Oven",
+    "Stove",
+    "BBQ grill",
+    "Patio or balcony",
+    "Beach essentials"
+  ],
+  "price": 97,
+  "address": {
+    "street": "Honolulu, HI, United States",
+    "suburb": "Honolulu",
+    "government_area": "Primary Urban Center",
+    "market": "Oahu",
+    "country": "United States",
+    "country_code": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -157.8266,
+        21.28084
+      ],
+      "is_location_exact": true
+    }
+  }
+}
+{
+  "_id": "12256344",
+  "listing_url": "https://www.airbnb.com/rooms/12256344",
+  "name": "Inner City Spacious Loft- City View",
+  "summary": "This beautiful, sunny loft room is on the top floor of a three storey free-standing terrace in Redfern. The room is very spacious, private, quiet and open. We are a family of 4 adults and will give you as much privacy or company as you would like.",
+  "property_type": "House",
+  "amenities": [
+    "TV",
+    "Internet",
+    "Wifi",
+    "Kitchen",
+    "Pets live on this property",
+    "Dog(s)",
+    "Free street parking",
+    "Heating",
+    "Family/kid friendly",
+    "Washer",
+    "Dryer",
+    "Smoke detector",
+    "Safety card",
+    "Fire extinguisher",
+    "Essentials",
+    "Shampoo",
+    "Hangers",
+    "Hair dryer",
+    "Iron",
+    "Laptop friendly workspace",
+    "Room-darkening shades",
+    "Hot water",
+    "Bed linens",
+    "Extra pillows and blankets",
+    "Microwave",
+    "Coffee maker",
+    "Refrigerator",
+    "Dishwasher",
+    "Dishes and silverware",
+    "Cooking basics",
+    "Oven",
+    "Stove",
+    "BBQ grill",
+    "Patio or balcony",
+    "Garden or backyard",
+    "Luggage dropoff allowed",
+    "Long term stays allowed",
+    "Flat path to front door",
+    "Well-lit path to entrance",
+    "Step-free access",
+    "Host greets you"
+  ],
+  "price": 80,
+  "address": {
+    "street": "Redfern, NSW, Australia",
+    "suburb": "Redfern",
+    "government_area": "Sydney",
+    "market": "Sydney",
+    "country": "Australia",
+    "country_code": "AU",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        151.21378,
+        -33.89373
+      ],
+      "is_location_exact": true
+    }
+  }
+}
+{
+  "_id": "12296622",
+  "listing_url": "https://www.airbnb.com/rooms/12296622",
+  "name": "Hibiscus Hideaway in Kihei",
+  "summary": "This beautiful one bedroom one bathroom cottage is completely brand new and is kept immaculate. Tile floors throughout, granite counter tops in the progressive yet traditional fully appointed kitchen and state of the art appliances.",
+  "property_type": "Bungalow",
+  "amenities": [
+    "Cable TV",
+    "Wifi",
+    "Air conditioning",
+    "Kitchen",
+    "Free parking on premises",
+    "Pets live on this property",
+    "Dog(s)",
+    "Cat(s)",
+    "Family/kid friendly",
+    "Washer",
+    "Dryer",
+    "Smoke detector",
+    "Carbon monoxide detector",
+    "Fire extinguisher",
+    "Essentials",
+    "24-hour check-in",
+    "Hair dryer",
+    "Iron"
+  ],
+  "price": 160,
+  "address": {
+    "street": "Kihei, HI, United States",
+    "suburb": "Maui",
+    "government_area": "Kihei-Makena",
+    "market": "Maui",
+    "country": "United States",
+    "country_code": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -156.45205,
+        20.76124
+      ],
+      "is_location_exact": true
+    }
+  }
+}
+{
+  "_id": "12349607",
+  "listing_url": "https://www.airbnb.com/rooms/12349607",
+  "name": "Very Convenient Apartment",
+  "summary": "Very convenient and well equipped apartment close to the City. Fully Firnished Bills included, including Internet Bus stops outside the front door- 10 min walk to Redfern Train Station/ Go Get outside the apartment.",
+  "property_type": "Apartment",
+  "amenities": [
+    "TV",
+    "Internet",
+    "Wifi",
+    "Kitchen",
+    "Washer",
+    "Smoke detector",
+    "Essentials",
+    "translation missing: en.hosting_amenity_49",
+    "translation missing: en.hosting_amenity_50"
+  ],
+  "price": 70,
+  "address": {
+    "street": "Waterloo, NSW, Australia",
+    "suburb": "Waterloo",
+    "government_area": "Sydney",
+    "market": "Sydney",
+    "country": "Australia",
+    "country_code": "AU",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        151.20691,
+        -33.89836
+      ],
+      "is_location_exact": true
+    }
+  }
+}
+{
+  "_id": "12354373",
+  "listing_url": "https://www.airbnb.com/rooms/12354373",
+  "name": "2017 , férias no Rio",
+  "summary": "Casa com excelente espaço, localizada no meio da natureza, próximo ao um dos acessos do Parque Estadual da Pedra Branca, que conta com cachoeiras e trilhas na Mata Atlântica e a 10 minutos de carro ou 35 minutos a pé do Parque Olímpico (3.5km) e 3 minutos de carro ou 12 minutos a pé da Vila Olímpica. A casa pricipal conta com 2 quartos com suíte, 2 salas, cozinha, 1 banheiro social e área de serviço.Também contamos com um anexo com 1 quarto com suíte. Os quartos poderão ser compartilhados!",
+  "property_type": "House",
+  "amenities": [
+    "TV",
+    "Cable TV",
+    "Internet",
+    "Wifi",
+    "Air conditioning",
+    "Wheelchair accessible",
+    "Kitchen",
+    "Free parking on premises",
+    "Pets live on this property",
+    "Dog(s)",
+    "Family/kid friendly",
+    "Washer",
+    "Hangers",
+    "Iron",
+    "Laptop friendly workspace"
+  ],
+  "price": 250,
+  "address": {
+    "street": "Rio de Janeiro, RJ, Brazil",
+    "suburb": "",
+    "government_area": "Jacarepaguá",
+    "market": "Rio De Janeiro",
+    "country": "Brazil",
+    "country_code": "BR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -43.4186896742968,
+        -22.96840021041473
+      ],
+      "is_location_exact": false
+    }
+  }
+}
+{
+  "_id": "1229797",
+  "listing_url": "https://www.airbnb.com/rooms/1229797",
+  "name": "Affordable and close to the city!",
+  "summary": "Comfortable room in a modern apartment near city.",
+  "property_type": "Apartment",
+  "amenities": [
+    "TV",
+    "Cable TV",
+    "Wifi",
+    "Air conditioning",
+    "Kitchen",
+    "Elevator",
+    "Free street parking",
+    "Heating",
+    "Washer",
+    "Dryer",
+    "Smoke detector",
+    "Essentials",
+    "Shampoo",
+    "Lock on bedroom door",
+    "Hangers",
+    "Hair dryer",
+    "Iron",
+    "translation missing: en.hosting_amenity_49",
+    "translation missing: en.hosting_amenity_50",
+    "Hot water",
+    "Bed linens",
+    "Extra pillows and blankets",
+    "Luggage dropoff allowed",
+    "Host greets you"
+  ],
+  "price": 65,
+  "address": {
+    "street": "Alexandria, NSW, Australia",
+    "suburb": "Waterloo",
+    "government_area": "Sydney",
+    "market": "Sydney",
+    "country": "Australia",
+    "country_code": "AU",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        151.20377,
+        -33.90017
+      ],
+      "is_location_exact": true
+    }
+  }
+}
+{
+  "_id": "12355178",
+  "listing_url": "https://www.airbnb.com/rooms/12355178",
+  "name": "Beautiful views of Sugar Loaf",
+  "summary": "Room with view of Sugar Loaf. Private bathroom, TV, air conditioning (split), WiFi, breakfast. 130 m from the Metro and Shopping Botafogo. One metro station from Copacabana Beach and next to the gastronomic district of Botafogo.",
+  "property_type": "Apartment",
+  "amenities": [
+    "Wifi",
+    "Air conditioning",
+    "Kitchen",
+    "Doorman",
+    "Breakfast",
+    "Elevator",
+    "Washer",
+    "Dryer",
+    "Essentials",
+    "24-hour check-in",
+    "Hangers",
+    "Hair dryer",
+    "Iron",
+    "Laptop friendly workspace",
+    "Hot water"
+  ],
+  "price": 317,
+  "address": {
+    "street": "Rio de Janeiro, Rio de Janeiro, Brazil",
+    "suburb": "Botafogo",
+    "government_area": "Botafogo",
+    "market": "Rio De Janeiro",
+    "country": "Brazil",
+    "country_code": "BR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -43.181236294754925,
+        -22.950189284501313
+      ],
+      "is_location_exact": true
+    }
+  }
+}
+{
+  "_id": "12357386",
+  "listing_url": "https://www.airbnb.com/rooms/12357386",
+  "name": "Minimalist Rooms in BCN, live it.",
+  "summary": "Beatifull Minimalist Flat in Gran de Gracia Street, it has 3 rooms and will be for 4 Erasmus Girls Students, enjoy the comun area, the minimalist Kitchen Wify Flat TV , balcony and Central Air Condition 22 Degrees Celsius in summer 2 girls in one room aviable NOW!!!!!! 1 girls in one room aviable NOW!!!!! Habitación con Litera o dos camas individuales en moderno apartamento y recién re modelado, SOLO NIÑAS ERASMUS en BCN. Extra expenses 200€ per month will pay by roomies Master room in booked it",
+  "property_type": "Loft",
+  "amenities": [
+    "TV",
+    "Cable TV",
+    "Wifi",
+    "Air conditioning",
+    "Kitchen",
+    "Elevator",
+    "Heating",
+    "Washer",
+    "Dryer",
+    "Smoke detector",
+    "Carbon monoxide detector",
+    "First aid kit",
+    "Fire extinguisher",
+    "Essentials",
+    "Hangers",
+    "Hair dryer",
+    "Iron",
+    "Laptop friendly workspace",
+    "translation missing: en.hosting_amenity_49",
+    "translation missing: en.hosting_amenity_50",
+    "Children’s books and toys",
+    "Room-darkening shades",
+    "Children’s dinnerware",
+    "Game console",
+    "Hot water",
+    "Luggage dropoff allowed",
+    "Long term stays allowed",
+    "Wide hallway clearance",
+    "Step-free access",
+    "Wide doorway",
+    "Flat path to front door",
+    "Well-lit path to entrance",
+    "Disabled parking spot",
+    "Step-free access",
+    "Wide doorway",
+    "Wide clearance to bed",
+    "Accessible-height bed",
+    "Step-free access",
+    "Wide doorway",
+    "Step-free access",
+    "Wide entryway",
+    "Host greets you",
+    "Paid parking on premises",
+    "Roll-in shower"
+  ],
+  "price": 115,
+  "address": {
+    "street": "Barcelona, Catalunya, Spain",
+    "suburb": "Vila de Gràcia",
+    "government_area": "la Vila de Gràcia",
+    "market": "Barcelona",
+    "country": "Spain",
+    "country_code": "ES",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.15413,
+        41.39982
+      ],
+      "is_location_exact": true
+    }
+  }
+}
+{
+  "_id": "12310597",
+  "listing_url": "https://www.airbnb.com/rooms/12310597",
+  "name": "A1 Tradewinds Ranch House (2 story)",
+  "summary": "Tradewinds Ranch is a 30 acre ranch that resides in the quiet rural community of Punalu'u, the Ko'olauloa  Mountain District on the island of O'ahu. The ranch sits Mauka (mountain) side in front of Sacred Falls and is about 2 blocks (walking distance) from the iconic beaches of the north eastern shore of Oahu. Tradewinds Ranch is a ranch with farm animals:  cows, horses, chickens, ducks, sheep, goats, dogs, cats, frogs... etc.!  We are excited to share our slice of country with you!",
+  "property_type": "Farm stay",
+  "amenities": [
+    "TV",
+    "Cable TV",
+    "Wifi",
+    "Wheelchair accessible",
+    "Kitchen",
+    "Free parking on premises",
+    "Smoking allowed",
+    "Pets allowed",
+    "Family/kid friendly",
+    "Washer",
+    "Dryer",
+    "First aid kit",
+    "Safety card",
+    "Fire extinguisher",
+    "Essentials",
+    "Shampoo",
+    "24-hour check-in",
+    "Hangers",
+    "Hair dryer",
+    "Iron",
+    "Laptop friendly workspace",
+    "Hot water",
+    "Bed linens",
+    "Microwave",
+    "Coffee maker",
+    "Refrigerator",
+    "Dishwasher",
+    "Dishes and silverware",
+    "Cooking basics",
+    "Oven",
+    "Stove",
+    "BBQ grill",
+    "Patio or balcony",
+    "Garden or backyard",
+    "Long term stays allowed",
+    "Wide hallway clearance",
+    "Step-free access",
+    "Wide doorway",
+    "Flat path to front door",
+    "Step-free access",
+    "Wide doorway",
+    "Accessible-height bed",
+    "Step-free access",
+    "Wide doorway",
+    "Accessible-height toilet",
+    "Wide clearance to shower",
+    "toilet",
+    "Step-free access",
+    "Wide entryway",
+    "Other",
+    "Handheld shower head",
+    "Roll-in shower"
+  ],
+  "price": 350,
+  "address": {
+    "street": "Hauula, HI, United States",
+    "suburb": "Oʻahu",
+    "government_area": "Koolauloa",
+    "market": "Oahu",
+    "country": "United States",
+    "country_code": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -157.90285,
+        21.59125
+      ],
+      "is_location_exact": true
+    }
+  }
+}
+{
+  "_id": "1229847",
+  "listing_url": "https://www.airbnb.com/rooms/1229847",
+  "name": "Charming StanleyBeachFlat w/rooftop",
+  "summary": "A charming,funky cool 1 bdrm flat in older walk up bldg close to Stanley beaches,mountain trails. A huge shared BBQ rooftop. No lift, 4 floor stairs Light,airy floor/ceiling windows. Buses at door,cafes.shops.wireless.full cooking kitchen.great spot!",
+  "property_type": "Apartment",
+  "amenities": [
+    "TV",
+    "Internet",
+    "Wifi",
+    "Air conditioning",
+    "Kitchen",
+    "Hot tub",
+    "Heating",
+    "Family/kid friendly",
+    "Fire extinguisher",
+    "Essentials",
+    "Shampoo",
+    "Other"
+  ],
+  "price": 1303,
+  "address": {
+    "street": "Hong Kong, Hong Kong Island, Hong Kong",
+    "suburb": "Southern District",
+    "government_area": "Southern",
+    "market": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        114.21303,
+        22.21846
+      ],
+      "is_location_exact": true
+    }
+  }
+}
+{
+  "_id": "12380012",
+  "listing_url": "https://www.airbnb.com/rooms/12380012",
+  "name": "Quarto no rio de janeiro",
+  "summary": "Quarto localizado no bairro da Tijuca , bairro tradicional do Rio de Janeiro, perto de estações de metro diferentes e Maracanã . O quarto tem ar condicionado, armário, cama de casal , além de uma bela vista da floresta de Tijuca.",
+  "property_type": "Apartment",
+  "amenities": [
+    "Cable TV",
+    "Wifi",
+    "Kitchen",
+    "Free parking on premises",
+    "Smoking allowed",
+    "Doorman",
+    "Breakfast",
+    "Pets live on this property",
+    "Dog(s)",
+    "Elevator",
+    "Buzzer/wireless intercom",
+    "Washer",
+    "Essentials",
+    "Lock on bedroom door",
+    "24-hour check-in",
+    "Laptop friendly workspace"
+  ],
+  "price": 48,
+  "address": {
+    "street": "Rio de Janeiro, Rio de Janeiro, Brazil",
+    "suburb": "Tijuca",
+    "government_area": "Tijuca",
+    "market": "Rio De Janeiro",
+    "country": "Brazil",
+    "country_code": "BR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -43.2533524829868,
+        -22.944292537938367
+      ],
+      "is_location_exact": true
+    }
+  }
+}
+{
+  "_id": "12370710",
+  "listing_url": "https://www.airbnb.com/rooms/12370710",
+  "name": "Room on the waterfront",
+  "summary": "Welcome to Manly and our beautiful seaside apartment. I hope you will enjoy your stay here being only a short walk to Manly while being so close to the beach.",
+  "property_type": "Condominium",
+  "amenities": [
+    "TV",
+    "Internet",
+    "Wifi",
+    "Kitchen",
+    "Breakfast",
+    "Free street parking",
+    "Washer",
+    "Smoke detector",
+    "Carbon monoxide detector",
+    "First aid kit",
+    "Fire extinguisher",
+    "Essentials",
+    "Shampoo",
+    "24-hour check-in",
+    "Hair dryer",
+    "Hot water",
+    "Bed linens",
+    "Host greets you",
+    "Beachfront"
+  ],
+  "price": 85,
+  "address": {
+    "street": "Manly, NSW, Australia",
+    "suburb": "Manly",
+    "government_area": "Manly",
+    "market": "Sydney",
+    "country": "Australia",
+    "country_code": "AU",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        151.29282,
+        -33.80031
+      ],
+      "is_location_exact": true
+    }
+  }
+}
+{
+  "_id": "12380299",
+  "listing_url": "https://www.airbnb.com/rooms/12380299",
+  "name": "Quarto para as Olimpíadas/Room for Olympics",
+  "summary": "Ideal for people who come to Rio de Janeiro to attend the Olympic Games in 2016 , as the site is less than 20 minutes from the main locations of the games in Barra da Tijuca as Olympic Park Rio Olympic Arena River , Aquatic Center Maria Lenk , tennis Olympic Center , Olympic Stadium, Aquatics , Olympic Hall 1, 2 , 3 and 4 , River Center . driving public ( BRT ) direct from the house to the location of the games.",
+  "property_type": "House",
+  "amenities": [
+    "Wifi",
+    "Kitchen",
+    "Free parking on premises",
+    "Washer",
+    "Lock on bedroom door"
+  ],
+  "price": 112,
+  "address": {
+    "street": "Rio de Janeiro, Rio de Janeiro, Brazil",
+    "suburb": "",
+    "government_area": "Taquara",
+    "market": "Rio De Janeiro",
+    "country": "Brazil",
+    "country_code": "BR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -43.36534968594563,
+        -22.930049818012783
+      ],
+      "is_location_exact": false
+    }
+  }
+}
+{
+  "_id": "12396367",
+  "listing_url": "https://www.airbnb.com/rooms/12396367",
+  "name": "Private bedroom in BORN",
+  "summary": "Nice and lightly bedroom in a 165m2 flat sharing with 4 people. Very confortable and placed in the center of Barcelona. 10 min walking to the beach and near to parque Ciutadella and Arc de Triomph.",
+  "property_type": "Apartment",
+  "amenities": [
+    "Internet",
+    "Wifi",
+    "Air conditioning",
+    "Kitchen",
+    "Smoking allowed",
+    "Buzzer/wireless intercom",
+    "Heating",
+    "Washer",
+    "Shampoo",
+    "Hangers",
+    "Hair dryer",
+    "Iron",
+    "Laptop friendly workspace",
+    "translation missing: en.hosting_amenity_49",
+    "translation missing: en.hosting_amenity_50"
+  ],
+  "price": 30,
+  "address": {
+    "street": "Barcelona, CT, Spain",
+    "suburb": "Ciutat Vella",
+    "government_area": "Sant Pere, Santa Caterina i la Ribera",
+    "market": "Barcelona",
+    "country": "Spain",
+    "country_code": "ES",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.18116,
+        41.38719
+      ],
+      "is_location_exact": false
+    }
+  }
+}
+{
+  "_id": "12403784",
+  "listing_url": "https://www.airbnb.com/rooms/12403784",
+  "name": "New apartment - 1 room",
+  "summary": "New and cozy apartment with 1 room available.",
+  "property_type": "Condominium",
+  "amenities": [
+    "Wifi",
+    "Pool",
+    "Kitchen",
+    "Paid parking off premises",
+    "Doorman",
+    "Gym",
+    "Elevator",
+    "Free street parking",
+    "Hot tub",
+    "Buzzer/wireless intercom",
+    "Family/kid friendly",
+    "Essentials",
+    "Shampoo",
+    "Lock on bedroom door",
+    "24-hour check-in",
+    "Hangers",
+    "Hair dryer",
+    "Iron",
+    "Hot water",
+    "Luggage dropoff allowed",
+    "Host greets you"
+  ],
+  "price": 351,
+  "address": {
+    "street": "Rio de Janeiro, Rio de Janeiro, Brazil",
+    "suburb": "Botafogo",
+    "government_area": "Botafogo",
+    "market": "Rio De Janeiro",
+    "country": "Brazil",
+    "country_code": "BR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -43.19321647887779,
+        -22.957538646861146
+      ],
+      "is_location_exact": false
+    }
+  }
+}
+{
+  "_id": "12373208",
+  "listing_url": "https://www.airbnb.com/rooms/12373208",
+  "name": "Beautiful Apt, Tropical Resort, Steps to the Beach",
+  "summary": "Our nightly rate includes already the mandatory Hawaii State Tax of 14.42%. Spacious 2BR/2BA Vacation Rental Condo in a Beautiful Resort with well-manicured Japanese zen garden. directly across the street from the beach.",
+  "property_type": "Condominium",
+  "amenities": [
+    "TV",
+    "Cable TV",
+    "Internet",
+    "Wifi",
+    "Air conditioning",
+    "Pool",
+    "Kitchen",
+    "Free parking on premises",
+    "Hot tub",
+    "Washer",
+    "Dryer",
+    "Smoke detector",
+    "Essentials",
+    "24-hour check-in",
+    "Hangers",
+    "Hair dryer",
+    "Laptop friendly workspace",
+    "translation missing: en.hosting_amenity_49",
+    "translation missing: en.hosting_amenity_50",
+    "Self check-in",
+    "Lockbox",
+    "Private entrance",
+    "Hot water",
+    "Bed linens",
+    "Extra pillows and blankets",
+    "Microwave",
+    "Coffee maker",
+    "Refrigerator",
+    "Dishwasher",
+    "Dishes and silverware",
+    "Cooking basics",
+    "Oven",
+    "Stove",
+    "BBQ grill",
+    "Patio or balcony"
+  ],
+  "price": 174,
+  "address": {
+    "street": "Kihei, HI, United States",
+    "suburb": "Maui",
+    "government_area": "Kihei-Makena",
+    "market": "Maui",
+    "country": "United States",
+    "country_code": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -156.45649,
+        20.76438
+      ],
+      "is_location_exact": true
+    }
+  }
+}
+{
+  "_id": "12317903",
+  "listing_url": "https://www.airbnb.com/rooms/12317903",
+  "name": "Newly Renovated Studio Midtown East",
+  "summary": "This furnished apartment is a stunning, newly renovated, private and luxurious, studio apartment in the heart of Manhattan. Residential, safe block that is VERY close to all! Fully furnished apartment, with everything one might need!",
+  "property_type": "Apartment",
+  "amenities": [
+    "TV",
+    "Cable TV",
+    "Wifi",
+    "Air conditioning",
+    "Kitchen",
+    "Buzzer/wireless intercom",
+    "Heating",
+    "Family/kid friendly",
+    "Smoke detector",
+    "Carbon monoxide detector",
+    "Essentials",
+    "Shampoo",
+    "24-hour check-in",
+    "Hangers",
+    "Hair dryer",
+    "Iron",
+    "Laptop friendly workspace",
+    "Self check-in",
+    "Building staff"
+  ],
+  "price": 239,
+  "address": {
+    "street": "New York, NY, United States",
+    "suburb": "Midtown East",
+    "government_area": "Midtown",
+    "market": "New York",
+    "country": "United States",
+    "country_code": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -73.9666,
+        40.75489
+      ],
+      "is_location_exact": true
+    }
+  }
+}
+{
+  "_id": "12407601",
+  "listing_url": "https://www.airbnb.com/rooms/12407601",
+  "name": "205 Punahoa 2 Bed Condo- Oceanfront",
+  "summary": "2 Bedroom Corner unit on the ocean! Since all Punahoa Beach condos are individually owned, each is decorated in its own island-style and all have an ocean front lanai perfect for your own outdoor dining above the Pacific. \"ALL UNITS ARE NON-SMOKING\"",
+  "property_type": "Apartment",
+  "amenities": [
+    "TV",
+    "Cable TV",
+    "Wifi",
+    "Kitchen",
+    "Free parking on premises",
+    "Family/kid friendly",
+    "Smoke detector",
+    "Essentials"
+  ],
+  "price": 311,
+  "address": {
+    "street": "Kihei, HI, United States",
+    "suburb": "Kihei/Wailea",
+    "government_area": "Kihei-Makena",
+    "market": "Maui",
+    "country": "United States",
+    "country_code": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -156.44864,
+        20.7264
+      ],
+      "is_location_exact": false
+    }
+  }
+}
+{
+  "_id": "12421800",
+  "listing_url": "https://www.airbnb.com/rooms/12421800",
+  "name": "Ribeira 24 (4)",
+  "summary": "Situados na típica e pitoresca Ribeira do Porto, totalmente remodelados e equipados de forma a proporcionar o melhor conforto aos seus visitantes. De frente para o rio Douro e perto dos principais pontos de atração da cidade, é o alojamento perfeito.",
+  "property_type": "Apartment",
+  "amenities": [
+    "TV",
+    "Internet",
+    "Wifi",
+    "Kitchen",
+    "Heating",
+    "Family/kid friendly",
+    "Washer",
+    "First aid kit",
+    "Fire extinguisher",
+    "Hangers",
+    "Hair dryer",
+    "Laptop friendly workspace"
+  ],
+  "price": 75,
+  "address": {
+    "street": "Porto, Porto, Portugal",
+    "suburb": "",
+    "government_area": "Cedofeita, Ildefonso, Sé, Miragaia, Nicolau, Vitória",
+    "market": "Porto",
+    "country": "Portugal",
+    "country_code": "PT",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -8.61318,
+        41.14107
+      ],
+      "is_location_exact": false
+    }
+  }
+}
+{
+  "_id": "12433727",
+  "listing_url": "https://www.airbnb.com/rooms/12433727",
+  "name": "Keauhou Hale at Volcano",
+  "summary": "Just outside the Hawaii Volcanoes National Park and minutes away from the active Halema'uma'u crater. Our cottage sits along the first fairway of the Volcano Golf CC with an open lanai looking at the majestic Mauna Loa and Mauna Kea in the distance.",
+  "property_type": "House",
+  "amenities": [
+    "TV",
+    "Cable TV",
+    "Internet",
+    "Wifi",
+    "Kitchen",
+    "Free parking on premises",
+    "Indoor fireplace",
+    "Family/kid friendly",
+    "Washer",
+    "Dryer",
+    "Smoke detector",
+    "First aid kit",
+    "Safety card",
+    "Fire extinguisher",
+    "Essentials",
+    "Shampoo",
+    "Hangers",
+    "Hair dryer",
+    "Iron"
+  ],
+  "price": 125,
+  "address": {
+    "street": "Hawaii Volcanoes National Park, HI, United States",
+    "suburb": "Island of Hawaiʻi",
+    "government_area": "Kau",
+    "market": "The Big Island",
+    "country": "United States",
+    "country_code": "US",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -155.26935,
+        19.44148
+      ],
+      "is_location_exact": false
+    }
+  }
+}
+{
+  "_id": "12378302",
+  "listing_url": "https://www.airbnb.com/rooms/12378302",
+  "name": "Luminous for 6 apt @ Rnda Sant Pau ¦",
+  "summary": "Enjoy your holiday in super bright apartment in the centre of Barcelona. Ideal place for 2 couples or families Please read carefully our house rules before booking in order to avoid potential problems and miscommunication before and during your stay",
+  "property_type": "Apartment",
+  "amenities": [
+    "TV",
+    "Cable TV",
+    "Internet",
+    "Wifi",
+    "Air conditioning",
+    "Kitchen",
+    "Elevator",
+    "Buzzer/wireless intercom",
+    "Heating",
+    "Family/kid friendly",
+    "Washer",
+    "Dryer",
+    "Smoke detector",
+    "Carbon monoxide detector",
+    "Essentials",
+    "Shampoo",
+    "24-hour check-in",
+    "Hangers",
+    "Hair dryer",
+    "Iron",
+    "Laptop friendly workspace",
+    "Crib",
+    "Hot water",
+    "Bed linens",
+    "Host greets you"
+  ],
+  "price": 527,
+  "address": {
+    "street": "Barcelona, Catalonia, Spain",
+    "suburb": "Eixample",
+    "government_area": "Sant Antoni",
+    "market": "Barcelona",
+    "country": "Spain",
+    "country_code": "ES",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.16663,
+        41.37513
+      ],
+      "is_location_exact": true
+    }
+  }
+}
